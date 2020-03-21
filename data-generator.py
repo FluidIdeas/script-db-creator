@@ -3,6 +3,8 @@
 from bs4 import BeautifulSoup
 import json
 
+invalid_packages = list()
+
 def get_links(index_path):
     root_dir = '/'.join(index_path.split('/')[0:-1])
     links = list()
@@ -38,7 +40,19 @@ def get_unique_urls(urls):
     return unique
 
 def get_description(doc):
-    return None
+    desc_p = doc.select('div.package p')
+    desc = None
+    for p in desc_p:
+        desc = p.text
+        break
+    if desc != None:
+        desc_lines = desc.split('\n')
+        processed_lines = list()
+        for desc_line in desc_lines:
+            processed_lines.append(desc_line.strip())
+        return ' '.join(processed_lines).strip()
+    else:
+        return None
 
 def get_section(page_path):
     parts = page_path.split('/')
@@ -123,13 +137,32 @@ def get_commands(doc):
             commands.append('as_root ' + kbd.text)
     return commands
 
+def get_dependencies(doc):
+    dependencies = dict()
+    dependencies['required'] = list()
+    dependencies['recommended'] = list()
+    dependencies['optional'] = list()
+    required_deps = doc.select('p.required a.xref')
+    for required in required_deps:
+        if not required.attrs['href'].startswith('http'):
+            dependencies['required'].append(required.attrs['href'].split('/')[-1].replace('.html', ''))
+    recommended_deps = doc.select('p.recommended a.xref')
+    for recommended in recommended_deps:
+        if not recommended.attrs['href'].startswith('http'):
+            dependencies['recommended'].append(recommended.attrs['href'].split('/')[-1].replace('.html', ''))
+    optional_deps = doc.select('p.optional a.xref')
+    for optional in optional_deps:
+        if not optional.attrs['href'].startswith('http'):
+            dependencies['optional'].append(optional.attrs['href'].split('/')[-1].replace('.html', ''))
+    return dependencies
+
 def parse_page(page_path):
     with open(page_path, 'rb') as fp:
         data = fp.read()
         doc = BeautifulSoup(data, features='lxml')
         package = dict()
         package['name'] = get_name(page_path)
-        #package['description'] = get_description(doc)
+        package['description'] = get_description(doc)
         package['section'] = get_section(page_path)
         package['downloadUrls'] = get_unique_urls(get_download_urls(doc))
         package['commands'] = get_commands(doc)
@@ -138,16 +171,37 @@ def parse_page(page_path):
             package['url'] = package['downloadUrls'][0]
         package['tarball'] = get_tarball(package['url'])
         package['version'] = get_version(package['tarball'])
+        package['dependencies'] = get_dependencies(doc)
         return package
+
+def is_valid(package):
+    if package['name'] not in ['krameworks5', 'plasma-all', 'alsa', 'profile'] and (package['description'] == None or len(package['commands']) == 0):
+        invalid_packages.append(package['name'])
+        return False
+    else:
+        return True
+
+def validate_dependencies(packages):
+    for package in packages:
+        for name in invalid_packages:
+            if name in package['dependencies']['required']:
+                package['dependencies']['required'].remove(name)
+            if name in package['dependencies']['recommended']:
+                package['dependencies']['recommended'].remove(name)
+            if name in package['dependencies']['optional']:
+                package['dependencies']['optional'].remove(name)
 
 def get_packages(index_path):
     links = get_links(index_path)
     packages = list()
     for link in links:
-        packages.append(parse_page(link))
+        package = parse_page(link)
+        if is_valid(package):
+            packages.append(package)
     return packages
 
 if __name__ == "__main__":
     index_path = '/home/chandrakant/aryalinux/books/blfs/index.html'
     packages = get_packages(index_path)
+    validate_dependencies(packages)
     print(json.dumps(packages, indent=4))
