@@ -1,0 +1,4 @@
+perl-modules: make install DESTDIR=$PKG
+python modules: python3 setup.py install --skip-build --root=$PKG
+libreoffice: make distro-pack-install DESTDIR=$PKG
+
