@@ -7,4 +7,6 @@ class ListBoxRowWithData(Gtk.ListBoxRow):
     def __init__(self, data):
         Gtk.ListBoxRow.__init__(self)
         self.data = data
-        self.add(Gtk.Label(data))
+        label = Gtk.Label(data)
+        label.set_xalign(0)
+        self.add(label)
