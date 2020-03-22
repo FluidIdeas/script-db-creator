@@ -134,7 +134,7 @@ def get_commands(doc):
         if 'userinput' in kbd.parent.attrs['class']:
             commands.append(kbd.text)
         else:
-            commands.append('as_root ' + kbd.text)
+            commands.append('az_the_root ' + kbd.text)
     return commands
 
 def get_dependencies(doc):
@@ -248,7 +248,32 @@ def validate_dependencies(packages):
         package['dependencies']['required'] = required
         package['dependencies']['recommended'] = recommended
         package['dependencies']['optional'] = optional
-        
+
+def add_pkgdir(command):
+    command = command.replace('=/', '=$PKG_DIR/')
+    for s in ['media', 'boot', 'sys', 'etc', 'lib', 'home', 'srv', 'bin', 'lib64', 'usr', 'mnt', 'tmp', 'dev', 'sbin', 'opt', 'root', 'var', 'proc', 'run']:
+        command = command.replace(' /' + s, ' $PKG_DIR' + '/' + s)
+    replacements = dict()
+    replacements['make install'] = 'make DESTDIR=$PKG_DIR install'
+    replacements['ninja install'] = 'DESTDIR=$PKG_DIR ninja install'
+    replacements['setup.py install'] = 'setup.py install --root=$PKG_DIR'
+    replacements['cat >'] = 'tee '
+    for find, replace in replacements.items():
+        command = command.replace(find, replace)
+    command = command.strip()
+    return command.replace('az_the_root ', '')
+
+def process_root_commands(package):
+    new_commands = list()
+    for command in package['commands']:
+        if command.startswith('az_the_root '):
+            command = add_pkgdir(command)
+        new_commands.append(command)
+    package['commands'] = new_commands
+
+def process_commands(packages):
+    for package in packages:
+        process_root_commands(package)
 
 def get_packages(index_path):
     links = get_links(index_path)
@@ -276,4 +301,5 @@ if __name__ == "__main__":
     index_path = '/home/chandrakant/aryalinux/books/blfs/index.html'
     packages = get_packages(index_path)
     validate_dependencies(packages)
+    process_commands(packages)
     print(json.dumps(packages, indent=4))
