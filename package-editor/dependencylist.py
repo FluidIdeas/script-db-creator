@@ -28,11 +28,17 @@ class DependencyList(Gtk.VBox):
         self.pack_start(self.panel, False, True, 3)
 
     def set_data(self, dependency_list):
+        self.clear()
         self.items = dependency_list
         for item in self.items:
             self.listbox.add(ListBoxRowWithData(item))
         self.show_all()
     
+    def clear(self):
+        children = self.listbox.get_children()
+        for child in children:
+            self.listbox.remove(child)
+
     def get_data(self):
         return self.items
 

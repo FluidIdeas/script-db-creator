@@ -5,7 +5,7 @@ from gi.repository import Gtk
 
 class Buttons(Gtk.HBox):
     def __init__(self, labels, actions):
-        Gtk.VBox.__init__(self)
+        Gtk.HBox.__init__(self)
         self.labels = labels
         self.actions = actions
         self.init_and_add_buttons()

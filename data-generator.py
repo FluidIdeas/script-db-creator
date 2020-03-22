@@ -297,9 +297,34 @@ def get_packages(index_path):
                 packages.append(package)
     return packages
 
+def process_additional(package):
+    package['downloadUrls'] = package['download_urls']
+    del(package['download_urls'])
+    all_deps = package['dependencies']
+    del(package['dependencies'])
+    package['dependencies'] = dict()
+    package['dependencies']['required'] = all_deps
+    package['dependencies']['recommended'] = list()
+    package['dependencies']['optional'] = list()
+    keys = ['name', 'version', 'section', 'tarball', 'url']
+    for key in keys:
+        if key not in package:
+            package[key] = None
+
+def read_additional(additional_json_path):
+    with open(additional_json_path, 'r') as fp:
+        additional_packages = json.load(fp)
+    for package in additional_packages:
+        process_additional(package)
+    return additional_packages
+
+
 if __name__ == "__main__":
     index_path = '/home/chandrakant/aryalinux/books/blfs/index.html'
+    additional_json_path = '/home/chandrakant/aryalinux/newparsers/config/additional_packages.json'
     packages = get_packages(index_path)
-    validate_dependencies(packages)
     process_commands(packages)
+    validate_dependencies(packages)
+    additional_packages = read_additional(additional_json_path)
+    packages.extend(additional_packages)
     print(json.dumps(packages, indent=4))
