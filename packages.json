@@ -6571,9 +6571,1014 @@
         }
     },
     {
-        "name": "perl-deps#perl-algorithm-diff",
+        "name": "perl-modules#perl-archive-zip",
+        "description": "The Archive::Zip module allows a Perl program to create, manipulate, read, and write Zip archive files.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/P/PH/PHRED/Archive-Zip-1.67.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/P/PH/PHRED/Archive-Zip-1.67.tar.gz",
+        "tarball": "Archive-Zip-1.67.tar.gz",
+        "version": "1.67",
+        "dependencies": {
+            "required": [
+                "unzip"
+            ],
+            "recommended": [],
+            "optional": [
+                "perl-modules#perl-test-mockmodule"
+            ]
+        }
+    },
+    {
+        "name": "perl-modules#perl-autovivification",
+        "description": "This module allows you disable autovivification (the automatic creation and population of new arrays and hashes whenever undefined variables are dereferenced), and optionally throw a warning or an error when it would have occurred.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/V/VP/VPIT/autovivification-0.18.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/V/VP/VPIT/autovivification-0.18.tar.gz",
+        "tarball": "autovivification-0.18.tar.gz",
+        "version": "0.18",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-business-isbn",
+        "description": "The Business::ISBN module is for work with International Standard Book Numbers.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/B/BD/BDFOY/Business-ISBN-3.005.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/B/BD/BDFOY/Business-ISBN-3.005.tar.gz",
+        "tarball": "Business-ISBN-3.005.tar.gz",
+        "version": "3.005",
+        "dependencies": {
+            "required": [
+                "perl-modules#perl-business-isbn-data"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-business-ismn",
+        "description": "The Business::ISMN module is for work with International Standard Music Numbers.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/B/BD/BDFOY/Business-ISMN-1.201.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/B/BD/BDFOY/Business-ISMN-1.201.tar.gz",
+        "tarball": "Business-ISMN-1.201.tar.gz",
+        "version": "1.201",
+        "dependencies": {
+            "required": [
+                "perl-modules#perl-tie-cycle"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-business-issn",
+        "description": "The Business::ISSN module is for work with International Standard Serial Numbers.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/B/BD/BDFOY/Business-ISSN-1.003.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/B/BD/BDFOY/Business-ISSN-1.003.tar.gz",
+        "tarball": "Business-ISSN-1.003.tar.gz",
+        "version": "1.003",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-class-accessor",
+        "description": "Class::Accessor generates accessors/mutators for your class.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/K/KA/KASEI/Class-Accessor-0.51.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/K/KA/KASEI/Class-Accessor-0.51.tar.gz",
+        "tarball": "Class-Accessor-0.51.tar.gz",
+        "version": "0.51",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-data-compare",
+        "description": "The Data::Compare module compares two perl data structures.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/D/DC/DCANTRELL/Data-Compare-1.27.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/D/DC/DCANTRELL/Data-Compare-1.27.tar.gz",
+        "tarball": "Data-Compare-1.27.tar.gz",
+        "version": "1.27",
+        "dependencies": {
+            "required": [
+                "perl-modules#perl-clone",
+                "perl-modules#perl-file-find-rule"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-data-dump",
+        "description": "Data::Dump provides pretty printing of data structures.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/G/GA/GAAS/Data-Dump-1.23.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/G/GA/GAAS/Data-Dump-1.23.tar.gz",
+        "tarball": "Data-Dump-1.23.tar.gz",
+        "version": "1.23",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-data-uniqid",
+        "description": "Data::Uniqid provides three simple routines for generating unique IDs.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/M/MW/MWX/Data-Uniqid-0.12.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/M/MW/MWX/Data-Uniqid-0.12.tar.gz",
+        "tarball": "Data-Uniqid-0.12.tar.gz",
+        "version": "0.12",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-datetime-calendar-julian",
+        "description": "DateTime::Calendar::Julian implements the Julian Calendar.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/W/WY/WYANT/DateTime-Calendar-Julian-0.102.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/W/WY/WYANT/DateTime-Calendar-Julian-0.102.tar.gz",
+        "tarball": "DateTime-Calendar-Julian-0.102.tar.gz",
+        "version": "0.102",
+        "dependencies": {
+            "required": [
+                "perl-modules#perl-datetime"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-datetime-format-builder",
+        "description": "DateTime::Format::Builder created DateTime parser classes and objects.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/D/DR/DROLSKY/DateTime-Format-Builder-0.82.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/D/DR/DROLSKY/DateTime-Format-Builder-0.82.tar.gz",
+        "tarball": "DateTime-Format-Builder-0.82.tar.gz",
+        "version": "0.82",
+        "dependencies": {
+            "required": [
+                "perl-modules#perl-datetime-format-strptime",
+                "perl-modules#perl-params-validate"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-encode-eucjpascii",
+        "description": "Encode::EUCJPASCII provides an eucJP-open (Extended Unix Code, Japanese) mapping.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/N/NE/NEZUMI/Encode-EUCJPASCII-0.03.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/N/NE/NEZUMI/Encode-EUCJPASCII-0.03.tar.gz",
+        "tarball": "Encode-EUCJPASCII-0.03.tar.gz",
+        "version": "0.03",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-encode-hanextra",
+        "description": "The Encode::HanExtra module provides extra sets of Chinese Encodings which are not included in the core Encode module because of size issues.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/A/AU/AUDREYT/Encode-HanExtra-0.23.tar.gz"
+        ],
+        "commands": [
+            "PERL_USE_UNSAFE_INC=1 perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/A/AU/AUDREYT/Encode-HanExtra-0.23.tar.gz",
+        "tarball": "Encode-HanExtra-0.23.tar.gz",
+        "version": "0.23",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-encode-jis2k",
+        "description": "The Encode::JIS2K module provides JIS X 0212 (aka JIS 2000) Encodings.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/D/DA/DANKOGAI/Encode-JIS2K-0.03.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/D/DA/DANKOGAI/Encode-JIS2K-0.03.tar.gz",
+        "tarball": "Encode-JIS2K-0.03.tar.gz",
+        "version": "0.03",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-file-slurper",
+        "description": "File::Slurper is a simple, sane and efficient module to slurp a file.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/L/LE/LEONT/File-Slurper-0.012.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/L/LE/LEONT/File-Slurper-0.012.tar.gz",
+        "tarball": "File-Slurper-0.012.tar.gz",
+        "version": "0.012",
+        "dependencies": {
+            "required": [],
+            "recommended": [
+                "perl-modules#perl-test-warnings"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-file-which",
+        "description": "File::Which provides a portable implementation of the 'which' utility.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/P/PL/PLICEASE/File-Which-1.23.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/P/PL/PLICEASE/File-Which-1.23.tar.gz",
+        "tarball": "File-Which-1.23.tar.gz",
+        "version": "1.23",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-html-parser",
+        "description": "The HTML::Parser distribution is a collection of modules that parse and extract information from HTML documents.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/G/GA/GAAS/HTML-Parser-3.72.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/G/GA/GAAS/HTML-Parser-3.72.tar.gz",
+        "tarball": "HTML-Parser-3.72.tar.gz",
+        "version": "3.72",
+        "dependencies": {
+            "required": [
+                "perl-modules#perl-html-tagset",
+                "perl-modules#perl-http-message"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-http-daemon",
+        "description": "Instances of the HTTP::Daemon class are HTTP/1.1 servers that listen on a socket for incoming requests. The HTTP::Daemon is a subclass of IO::Socket::INET, so you can perform socket operations directly on it too.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/O/OA/OALDERS/HTTP-Daemon-6.06.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/O/OA/OALDERS/HTTP-Daemon-6.06.tar.gz",
+        "tarball": "HTTP-Daemon-6.06.tar.gz",
+        "version": "6.06",
+        "dependencies": {
+            "required": [
+                "perl-modules#perl-http-message"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-io-socket-ssl",
+        "description": "IO::Socket::SSL makes using SSL/TLS much easier by wrapping the necessary functionality into the familiar IO::Socket interface and providing secure defaults whenever possible.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/S/SU/SULLR/IO-Socket-SSL-2.067.tar.gz"
+        ],
+        "commands": [
+            "yes | perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/S/SU/SULLR/IO-Socket-SSL-2.067.tar.gz",
+        "tarball": "IO-Socket-SSL-2.067.tar.gz",
+        "version": "2.067",
+        "dependencies": {
+            "required": [
+                "make-ca",
+                "perl-modules#perl-net-ssleay"
+            ],
+            "recommended": [
+                "perl-modules#perl-uri"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-io-string",
+        "description": "IO::String - Emulate file interface for in-core strings.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/G/GA/GAAS/IO-String-1.08.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/G/GA/GAAS/IO-String-1.08.tar.gz",
+        "tarball": "IO-String-1.08.tar.gz",
+        "version": "1.08",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-ipc-run3",
+        "description": "IPC::Run3 is used to run a subprocess with input/ouput redirection.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/R/RJ/RJBS/IPC-Run3-0.048.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/R/RJ/RJBS/IPC-Run3-0.048.tar.gz",
+        "tarball": "IPC-Run3-0.048.tar.gz",
+        "version": "0.048",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-lingua-translit",
+        "description": "Lingua::Translit and its translit program transliterate text between writing systems.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/A/AL/ALINKE/Lingua-Translit-0.28.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/A/AL/ALINKE/Lingua-Translit-0.28.tar.gz",
+        "tarball": "Lingua-Translit-0.28.tar.gz",
+        "version": "0.28",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-list-allutils",
+        "description": "The List::Allutils module combines List::Util and List::MoreUtils in one bite-sized package.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/D/DR/DROLSKY/List-AllUtils-0.16.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/D/DR/DROLSKY/List-AllUtils-0.16.tar.gz",
+        "tarball": "List-AllUtils-0.16.tar.gz",
+        "version": "0.16",
+        "dependencies": {
+            "required": [
+                "perl-modules#perl-list-someutils",
+                "perl-modules#perl-list-utilsby"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-list-moreutils",
+        "description": "List::MoreUtils provides the stuff missing in List::Util.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/R/RE/REHSACK/List-MoreUtils-0.428.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/R/RE/REHSACK/List-MoreUtils-0.428.tar.gz",
+        "tarball": "List-MoreUtils-0.428.tar.gz",
+        "version": "0.428",
+        "dependencies": {
+            "required": [
+                "perl-modules#perl-exporter-tiny",
+                "perl-modules#perl-list-moreutils-xs"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-log-log4perl",
+        "description": "Log::Log4perl provides a Log4j implementation for perl.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/M/MS/MSCHILLI/Log-Log4perl-1.49.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/M/MS/MSCHILLI/Log-Log4perl-1.49.tar.gz",
+        "tarball": "Log-Log4perl-1.49.tar.gz",
+        "version": "1.49",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-lwp-protocol-https",
+        "description": "LWP::Protocol::https provides https support for LWP::UserAgent (i.e. libwww-perl-6.43). Once the module is installed LWP is able to access sites using HTTP over SSL/TLS.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "http://www.linuxfromscratch.org/patches/blfs/svn/LWP-Protocol-https-6.07-system_certs-1.patch",
+            "https://www.cpan.org/authors/id/O/OA/OALDERS/LWP-Protocol-https-6.07.tar.gz"
+        ],
+        "commands": [
+            "patch -Np1 -i ../LWP-Protocol-https-6.07-system_certs-1.patch",
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "http://www.linuxfromscratch.org/patches/blfs/svn/LWP-Protocol-https-6.07-system_certs-1.patch",
+        "tarball": "LWP-Protocol-https-6.07-system_certs-1.patch",
+        "version": "LWP-Protocol-https-6.07-system_certs-1.patch",
+        "dependencies": {
+            "required": [
+                "perl-modules#perl-io-socket-ssl",
+                "perl-modules#perl-libwww-perl",
+                "make-ca"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-module-build",
+        "description": "Module::Build allows perl modules to be built without a make command being present.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/L/LE/LEONT/Module-Build-0.4231.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/L/LE/LEONT/Module-Build-0.4231.tar.gz",
+        "tarball": "Module-Build-0.4231.tar.gz",
+        "version": "0.4231",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-net-dns",
+        "description": "Net::DNS is a DNS resolver implemented in Perl. It can be used to perform nearly any type of DNS query from a Perl script.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/N/NL/NLNETLABS/Net-DNS-1.22.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/N/NL/NLNETLABS/Net-DNS-1.22.tar.gz",
+        "tarball": "Net-DNS-1.22.tar.gz",
+        "version": "1.22",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-parse-recdescent",
+        "description": "Parse::RecDescent incrementally generates top-down recursive-descent text parsers from simple yacc-like grammar specifications.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/J/JT/JTBRAUN/Parse-RecDescent-1.967015.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/J/JT/JTBRAUN/Parse-RecDescent-1.967015.tar.gz",
+        "tarball": "Parse-RecDescent-1.967015.tar.gz",
+        "version": "1.967015",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-parse-yapp",
+        "description": "Parse::Yapp is a Perl extension for generating and using LALR parsers.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/W/WB/WBRASWELL/Parse-Yapp-1.21.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/W/WB/WBRASWELL/Parse-Yapp-1.21.tar.gz",
+        "tarball": "Parse-Yapp-1.21.tar.gz",
+        "version": "1.21",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-perlio-utf8_strict",
+        "description": "PerlIO::utf8_strict provides a fast and correct UTF-8 PerlIO layer. Unlike perl's default :utf8 layer it checks the input for correctness.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/L/LE/LEONT/PerlIO-utf8_strict-0.007.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/L/LE/LEONT/PerlIO-utf8_strict-0.007.tar.gz",
+        "tarball": "PerlIO-utf8_strict-0.007.tar.gz",
+        "version": "0.007",
+        "dependencies": {
+            "required": [],
+            "recommended": [
+                "perl-modules#perl-test-exception"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-regexp-common",
+        "description": "Regexp::Common provides commonly requested regular expressions.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/A/AB/ABIGAIL/Regexp-Common-2017060201.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/A/AB/ABIGAIL/Regexp-Common-2017060201.tar.gz",
+        "tarball": "Regexp-Common-2017060201.tar.gz",
+        "version": "2017060201",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-sgmlspm",
+        "description": "The SGMLSpm module is a Perl library used for parsing the output from James Clark's SGMLS and NSGMLS parsers.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/R/RA/RAAB/SGMLSpm-1.1.tar.gz"
+        ],
+        "commands": [
+            "chmod -v 644 MYMETA.yml",
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install",
+            "as_root ln -sv sgmlspl.pl /usr/bin/sgmlspl"
+        ],
+        "url": "https://www.cpan.org/authors/id/R/RA/RAAB/SGMLSpm-1.1.tar.gz",
+        "tarball": "SGMLSpm-1.1.tar.gz",
+        "version": "1.1",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-sort-key",
+        "description": "Sort::Key provides a set of functions to sort lists of values by some calculated key value.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/S/SA/SALVA/Sort-Key-1.33.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/S/SA/SALVA/Sort-Key-1.33.tar.gz",
+        "tarball": "Sort-Key-1.33.tar.gz",
+        "version": "1.33",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-test-command",
+        "description": "Test::Command tests the exit status, STDOUT, or STDERR, of an external command.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/D/DA/DANBOO/Test-Command-0.11.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/D/DA/DANBOO/Test-Command-0.11.tar.gz",
+        "tarball": "Test-Command-0.11.tar.gz",
+        "version": "0.11",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-test-differences",
+        "description": "Test::Differences tests strings and data structures and shows the differences if they do not match.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/D/DC/DCANTRELL/Test-Differences-0.67.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/D/DC/DCANTRELL/Test-Differences-0.67.tar.gz",
+        "tarball": "Test-Differences-0.67.tar.gz",
+        "version": "0.67",
+        "dependencies": {
+            "required": [
+                "perl-modules#perl-text-diff"
+            ],
+            "recommended": [
+                "perl-modules#perl-capture-tiny"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-text-bibtex",
+        "description": "Text::BibTeX provides an interface to read and parse BibTeX files.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/A/AM/AMBS/Text-BibTeX-0.88.tar.gz"
+        ],
+        "commands": [
+            "perl Build.PL &&\n./Build       &&\n./Build test",
+            "as_root ./Build install"
+        ],
+        "url": "https://www.cpan.org/authors/id/A/AM/AMBS/Text-BibTeX-0.88.tar.gz",
+        "tarball": "Text-BibTeX-0.88.tar.gz",
+        "version": "0.88",
+        "dependencies": {
+            "required": [
+                "perl-modules#perl-config-autoconf",
+                "perl-modules#perl-extutils-libbuilder"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-text-csv",
+        "description": "Text::CSV is a comma-separated values manipulator, using XS (eXternal Subroutine - for subroutines written in C or C++) or pure perl.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/I/IS/ISHIGAKI/Text-CSV-2.00.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/I/IS/ISHIGAKI/Text-CSV-2.00.tar.gz",
+        "tarball": "Text-CSV-2.00.tar.gz",
+        "version": "2.00",
+        "dependencies": {
+            "required": [],
+            "recommended": [
+                "perl-modules#perl-text-csv_xs",
+                "biber"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-text-roman",
+        "description": "Text::Roman allows conversion between Roman and Arabic algorisms (number systems, e.g. MCMXLV and 1945).",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/S/SY/SYP/Text-Roman-3.5.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/S/SY/SYP/Text-Roman-3.5.tar.gz",
+        "tarball": "Text-Roman-3.5.tar.gz",
+        "version": "3.5",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-unicode-collate",
+        "description": "Unicode::Collate provides a Unicode collation algorithm.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/S/SA/SADAHIRO/Unicode-Collate-1.27.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/S/SA/SADAHIRO/Unicode-Collate-1.27.tar.gz",
+        "tarball": "Unicode-Collate-1.27.tar.gz",
+        "version": "1.27",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-unicode-linebreak",
+        "description": "Unicode::LineBreak provides a UAX #14 Unicode Line Breaking Algorithm.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/N/NE/NEZUMI/Unicode-LineBreak-2019.001.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/N/NE/NEZUMI/Unicode-LineBreak-2019.001.tar.gz",
+        "tarball": "Unicode-LineBreak-2019.001.tar.gz",
+        "version": "2019.001",
+        "dependencies": {
+            "required": [
+                "perl-modules#perl-mime-charset",
+                "wget"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-uri",
+        "description": "This module implements the URI class. Objects of this class represent \"Uniform Resource Identifier references\" as specified in RFC 2396 (and updated by RFC 2732). A Uniform Resource Identifier is a compact string of characters that identifies an abstract or physical resource. A Uniform Resource Identifier can be further classified as either a Uniform Resource Locator (URL) or a Uniform Resource Name (URN). The distinction between URL and URN does not matter to the URI class interface. A \"URI-reference\" is a URI that may have additional information attached in the form of a fragment identifier.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/O/OA/OALDERS/URI-1.76.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/O/OA/OALDERS/URI-1.76.tar.gz",
+        "tarball": "URI-1.76.tar.gz",
+        "version": "1.76",
+        "dependencies": {
+            "required": [],
+            "recommended": [
+                "perl-modules#perl-test-needs"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-xml-libxml-simple",
+        "description": "The XML::LibXML::Simple module is a rewrite of XML::Simple to use the XML::LibXML parser for XML structures,instead of the plain Perl or SAX parsers.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/M/MA/MARKOV/XML-LibXML-Simple-1.01.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/M/MA/MARKOV/XML-LibXML-Simple-1.01.tar.gz",
+        "tarball": "XML-LibXML-Simple-1.01.tar.gz",
+        "version": "1.01",
+        "dependencies": {
+            "required": [
+                "perl-modules#perl-xml-libxml"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-xml-libxslt",
+        "description": "XML-LibXSLT provides an interface to libxslt-1.1.34",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/S/SH/SHLOMIF/XML-LibXSLT-1.99.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/S/SH/SHLOMIF/XML-LibXSLT-1.99.tar.gz",
+        "tarball": "XML-LibXSLT-1.99.tar.gz",
+        "version": "1.99",
+        "dependencies": {
+            "required": [
+                "libxslt",
+                "perl-modules#perl-xml-libxml"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-xml-simple",
+        "description": "XML::Simple provides an easy API to read and write XML (especially config files). It is deprecated and its use is discouraged.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/G/GR/GRANTM/XML-Simple-2.25.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/G/GR/GRANTM/XML-Simple-2.25.tar.gz",
+        "tarball": "XML-Simple-2.25.tar.gz",
+        "version": "2.25",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": [
+                "perl-modules#perl-xml-sax",
+                "perl-modules#perl-xml-sax-expat"
+            ]
+        }
+    },
+    {
+        "name": "perl-modules#perl-xml-writer",
+        "description": "XML::Writer provides a Perl extension for writing XML documents.",
+        "section": "Perl Module",
+        "downloadUrls": [
+            "https://www.cpan.org/authors/id/J/JO/JOSEPHW/XML-Writer-0.625.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://www.cpan.org/authors/id/J/JO/JOSEPHW/XML-Writer-0.625.tar.gz",
+        "tarball": "XML-Writer-0.625.tar.gz",
+        "version": "0.625",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-alternatives",
+        "description": null,
+        "section": "Perl Module",
+        "downloadUrls": [],
+        "commands": [
+            "as_root install <Module::Name>",
+            "as_root cpan -i <Module1::Name> <Module2::Name>"
+        ],
+        "url": null,
+        "tarball": null,
+        "version": null,
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-modules#perl-algorithm-diff",
         "description": "Algorithm::Diff computes 'intelligent' differences between two files or lists.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/T/TY/TYEMQ//Algorithm-Diff-1.1903.tar.gz"
         ],
@@ -6591,9 +7596,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-alien-build",
+        "name": "perl-modules#perl-alien-build",
         "description": "Alien::Build provides tools for building external (non-CPAN) dependencies for CPAN.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Build-2.00.tar.gz"
         ],
@@ -6609,16 +7614,16 @@
                 "perl-modules#perl-file-which"
             ],
             "recommended": [
-                "perl-deps#perl-ffi-checklib",
-                "perl-deps#perl-file-chdir"
+                "perl-modules#perl-ffi-checklib",
+                "perl-modules#perl-file-chdir"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-alien-libxml2",
+        "name": "perl-modules#perl-alien-libxml2",
         "description": "Alien::Libxml2 is designed to allow modules to install the C libxml2 library on your system. In BLFS, it uses pkg-config to find how to link to the installed libxml2-2.9.10.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Libxml2-0.12.tar.gz"
         ],
@@ -6631,19 +7636,19 @@
         "version": "0.12",
         "dependencies": {
             "required": [
-                "perl-deps#perl-alien-build",
+                "perl-modules#perl-alien-build",
                 "libxml2"
             ],
             "recommended": [
-                "perl-deps#perl-test2-suite"
+                "perl-modules#perl-test2-suite"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-b-hooks-endofscope",
+        "name": "perl-modules#perl-b-hooks-endofscope",
         "description": "B::Hooks::EndOfScope allows you to execute code when perl finished compiling the surrounding scope.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/E/ET/ETHER/B-Hooks-EndOfScope-0.24.tar.gz"
         ],
@@ -6656,20 +7661,20 @@
         "version": "0.24",
         "dependencies": {
             "required": [
-                "perl-deps#perl-module-implementation",
-                "perl-deps#perl-sub-exporter-progressive",
-                "perl-deps#perl-variable-magic"
+                "perl-modules#perl-module-implementation",
+                "perl-modules#perl-sub-exporter-progressive",
+                "perl-modules#perl-variable-magic"
             ],
             "recommended": [
-                "perl-deps#perl-try-tiny"
+                "perl-modules#perl-try-tiny"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-business-isbn-data",
+        "name": "perl-modules#perl-business-isbn-data",
         "description": "Business-ISBN-Data is a data pack for Business::ISBN.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Business-ISBN-Data-20191107.tar.gz"
         ],
@@ -6687,9 +7692,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-capture-tiny",
+        "name": "perl-modules#perl-capture-tiny",
         "description": "The Capture::Tiny module captures STDOUT and STDERR from Perl, XS (eXternal Subroutine, i.e. written in C or C++) or external programs.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Capture-Tiny-0.48.tar.gz"
         ],
@@ -6707,9 +7712,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-class-data-inheritable",
+        "name": "perl-modules#perl-class-data-inheritable",
         "description": "Class::Data::Inheritable is for creating accessor/mutators to class data. That is, if you want to store something about your class as a whole (instead of about a single object).",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/T/TM/TMTM/Class-Data-Inheritable-0.08.tar.gz"
         ],
@@ -6727,9 +7732,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-class-inspector",
+        "name": "perl-modules#perl-class-inspector",
         "description": "Class::Inspector allows you to get information about a loaded class.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Class-Inspector-1.36.tar.gz"
         ],
@@ -6747,9 +7752,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-class-singleton",
+        "name": "perl-modules#perl-class-singleton",
         "description": "A Singleton describes an object class that can have only one instance in any system, such as a print spooler. This module implements a Singelton class from which other classes can be derived.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/S/SH/SHAY/Class-Singleton-1.5.tar.gz"
         ],
@@ -6767,9 +7772,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-class-tiny",
+        "name": "perl-modules#perl-class-tiny",
         "description": "Class:Tiny offers a minimalist class construction kit.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Class-Tiny-1.006.tar.gz"
         ],
@@ -6787,9 +7792,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-clone",
+        "name": "perl-modules#perl-clone",
         "description": "Clone recursively copies perl datatypes.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/A/AT/ATOOMIC/Clone-0.43.tar.gz"
         ],
@@ -6807,9 +7812,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-config-autoconf",
+        "name": "perl-modules#perl-config-autoconf",
         "description": "The Config::AutoConf module implements some of the AutoConf macros (detecting a command, detecting a library, etc.) in pure perl.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/Config-AutoConf-0.318.tar.gz"
         ],
@@ -6822,7 +7827,7 @@
         "version": "0.318",
         "dependencies": {
             "required": [
-                "perl-deps#perl-capture-tiny",
+                "perl-modules#perl-capture-tiny",
                 "perl-modules#perl-file-slurper"
             ],
             "recommended": [],
@@ -6830,9 +7835,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-cpan-meta-check",
+        "name": "perl-modules#perl-cpan-meta-check",
         "description": "CPAN::Meta::Check verifies if requirements described in a CPAN::Meta object are present.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/L/LE/LEONT/CPAN-Meta-Check-0.014.tar.gz"
         ],
@@ -6846,15 +7851,15 @@
         "dependencies": {
             "required": [],
             "recommended": [
-                "perl-deps#perl-test-deep"
+                "perl-modules#perl-test-deep"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-datetime",
+        "name": "perl-modules#perl-datetime",
         "description": "DateTime is a date and time object for perl.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-1.51.tar.gz"
         ],
@@ -6867,21 +7872,21 @@
         "version": "1.51",
         "dependencies": {
             "required": [
-                "perl-deps#perl-datetime-locale",
-                "perl-deps#perl-datetime-timezone"
+                "perl-modules#perl-datetime-locale",
+                "perl-modules#perl-datetime-timezone"
             ],
             "recommended": [
-                "perl-deps#perl-cpan-meta-check",
-                "perl-deps#perl-test-fatal",
-                "perl-deps#perl-test-warnings"
+                "perl-modules#perl-cpan-meta-check",
+                "perl-modules#perl-test-fatal",
+                "perl-modules#perl-test-warnings"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-datetime-format-strptime",
+        "name": "perl-modules#perl-datetime-format-strptime",
         "description": "DateTime::Format::Strptime implements most of strptime(3), i.e. it takes a string and a pattern and returns a DateTime object.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-Format-Strptime-1.76.tar.gz"
         ],
@@ -6894,16 +7899,16 @@
         "version": "1.76",
         "dependencies": {
             "required": [
-                "perl-deps#perl-datetime"
+                "perl-modules#perl-datetime"
             ],
             "recommended": [],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-datetime-locale",
+        "name": "perl-modules#perl-datetime-locale",
         "description": "DateTime::Locale provides localization support for DateTime-1.51.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-Locale-1.25.tar.gz"
         ],
@@ -6916,24 +7921,24 @@
         "version": "1.25",
         "dependencies": {
             "required": [
-                "perl-deps#perl-dist-checkconflicts",
-                "perl-deps#perl-file-sharedir",
-                "perl-deps#perl-namespace-autoclean",
-                "perl-deps#perl-params-validationcompiler"
+                "perl-modules#perl-dist-checkconflicts",
+                "perl-modules#perl-file-sharedir",
+                "perl-modules#perl-namespace-autoclean",
+                "perl-modules#perl-params-validationcompiler"
             ],
             "recommended": [
-                "perl-deps#perl-cpan-meta-check",
-                "perl-deps#perl-ipc-system-simple",
-                "perl-deps#perl-test-file-sharedir",
-                "perl-deps#perl-test-warnings"
+                "perl-modules#perl-cpan-meta-check",
+                "perl-modules#perl-ipc-system-simple",
+                "perl-modules#perl-test-file-sharedir",
+                "perl-modules#perl-test-warnings"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-datetime-timezone",
+        "name": "perl-modules#perl-datetime-timezone",
         "description": "This class is the base class for all time zone objects. A time zone is represented internally as a set of observances, each of which describes the offset from GMT for a given time period.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-TimeZone-2.38.tar.gz"
         ],
@@ -6946,22 +7951,22 @@
         "version": "2.38",
         "dependencies": {
             "required": [
-                "perl-deps#perl-class-singleton",
-                "perl-deps#perl-module-runtime",
-                "perl-deps#perl-params-validationcompiler"
+                "perl-modules#perl-class-singleton",
+                "perl-modules#perl-module-runtime",
+                "perl-modules#perl-params-validationcompiler"
             ],
             "recommended": [
-                "perl-deps#perl-test-fatal",
-                "perl-deps#perl-test-requires",
-                "perl-deps#perl-datetime"
+                "perl-modules#perl-test-fatal",
+                "perl-modules#perl-test-requires",
+                "perl-modules#perl-datetime"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-devel-stacktrace",
+        "name": "perl-modules#perl-devel-stacktrace",
         "description": "Devel::StackTrace provides an object representing a stacvk trace.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Devel-StackTrace-2.04.tar.gz"
         ],
@@ -6979,9 +7984,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-dist-checkconflicts",
+        "name": "perl-modules#perl-dist-checkconflicts",
         "description": "Dist::CheckConflicts declares version conflicts for a distribution, to support post-install updates of dependant distributions.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/D/DO/DOY/Dist-CheckConflicts-0.11.tar.gz"
         ],
@@ -6994,18 +7999,18 @@
         "version": "0.11",
         "dependencies": {
             "required": [
-                "perl-deps#perl-module-runtime"
+                "perl-modules#perl-module-runtime"
             ],
             "recommended": [
-                "perl-deps#perl-test-fatal"
+                "perl-modules#perl-test-fatal"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-encode-locale",
+        "name": "perl-modules#perl-encode-locale",
         "description": "Encode::Locale determines the locale encoding.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/G/GA/GAAS/Encode-Locale-1.05.tar.gz"
         ],
@@ -7023,9 +8028,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-eval-closure",
+        "name": "perl-modules#perl-eval-closure",
         "description": "Eval::Closure safely and cleanly creates closures via string eval.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/D/DO/DOY/Eval-Closure-0.14.tar.gz"
         ],
@@ -7039,16 +8044,16 @@
         "dependencies": {
             "required": [],
             "recommended": [
-                "perl-deps#perl-test-fatal",
-                "perl-deps#perl-test-requires"
+                "perl-modules#perl-test-fatal",
+                "perl-modules#perl-test-requires"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-exception-class",
+        "name": "perl-modules#perl-exception-class",
         "description": "Exception::Class allows you to declare real exception classes in Perl.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Exception-Class-1.44.tar.gz"
         ],
@@ -7061,17 +8066,17 @@
         "version": "1.44",
         "dependencies": {
             "required": [
-                "perl-deps#perl-class-data-inheritable",
-                "perl-deps#perl-devel-stacktrace"
+                "perl-modules#perl-class-data-inheritable",
+                "perl-modules#perl-devel-stacktrace"
             ],
             "recommended": [],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-exporter-tiny",
+        "name": "perl-modules#perl-exporter-tiny",
         "description": "Exporter::Tiny is an exporter with the features of Sub::Exporter but only core dependencies.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-1.002001.tar.gz"
         ],
@@ -7089,9 +8094,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-extutils-libbuilder",
+        "name": "perl-modules#perl-extutils-libbuilder",
         "description": "ExtUtils::LibBuilder is a tool to build C libraries.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/A/AM/AMBS/ExtUtils-LibBuilder-0.08.tar.gz"
         ],
@@ -7111,9 +8116,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-ffi-checklib",
+        "name": "perl-modules#perl-ffi-checklib",
         "description": "FFI::CheckLib checks whether a particular dynamic library is available for FFI (Foreign Function Interface) to use.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/FFI-CheckLib-0.26.tar.gz"
         ],
@@ -7127,17 +8132,17 @@
         "dependencies": {
             "required": [],
             "recommended": [
-                "perl-deps#perl-capture-tiny",
-                "perl-deps#perl-path-tiny",
-                "perl-deps#perl-test2-suite"
+                "perl-modules#perl-capture-tiny",
+                "perl-modules#perl-path-tiny",
+                "perl-modules#perl-test2-suite"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-file-chdir",
+        "name": "perl-modules#perl-file-chdir",
         "description": "File::chdir provides a more sensible way to change directories.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/File-chdir-0.1010.tar.gz"
         ],
@@ -7155,9 +8160,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-file-copy-recursive",
+        "name": "perl-modules#perl-file-copy-recursive",
         "description": "This module copies and moves directories recursively (or single files), to an optional depth and attempts to preserve each file or directory's mode.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/D/DM/DMUEY/File-Copy-Recursive-0.45.tar.gz"
         ],
@@ -7171,19 +8176,19 @@
         "dependencies": {
             "required": [],
             "recommended": [
-                "perl-deps#perl-path-tiny",
-                "perl-deps#perl-test-deep",
-                "perl-deps#perl-test-fatal",
-                "perl-deps#perl-test-file",
-                "perl-deps#perl-test-warnings"
+                "perl-modules#perl-path-tiny",
+                "perl-modules#perl-test-deep",
+                "perl-modules#perl-test-fatal",
+                "perl-modules#perl-test-file",
+                "perl-modules#perl-test-warnings"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-file-find-rule",
+        "name": "perl-modules#perl-file-find-rule",
         "description": "File::Find::Rule is a friendlier interface to File::Find. It allows you to build rules which specify the desired files and directories.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/File-Find-Rule-0.34.tar.gz"
         ],
@@ -7196,17 +8201,17 @@
         "version": "0.34",
         "dependencies": {
             "required": [
-                "perl-deps#perl-number-compare",
-                "perl-deps#perl-text-glob"
+                "perl-modules#perl-number-compare",
+                "perl-modules#perl-text-glob"
             ],
             "recommended": [],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-file-listing",
+        "name": "perl-modules#perl-file-listing",
         "description": "File::Listing parses a directory listing.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/G/GA/GAAS/File-Listing-6.04.tar.gz"
         ],
@@ -7219,16 +8224,16 @@
         "version": "6.04",
         "dependencies": {
             "required": [
-                "perl-deps#perl-http-date"
+                "perl-modules#perl-http-date"
             ],
             "recommended": [],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-file-sharedir",
+        "name": "perl-modules#perl-file-sharedir",
         "description": "File::ShareDir allows you to access data files which have been installed by File::ShareDir::Install.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/File-ShareDir-1.116.tar.gz"
         ],
@@ -7241,17 +8246,17 @@
         "version": "1.116",
         "dependencies": {
             "required": [
-                "perl-deps#perl-class-inspector",
-                "perl-deps#perl-file-sharedir-install"
+                "perl-modules#perl-class-inspector",
+                "perl-modules#perl-file-sharedir-install"
             ],
             "recommended": [],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-file-sharedir-install",
+        "name": "perl-modules#perl-file-sharedir-install",
         "description": "File::ShareDir::Install allows you to install read-only data files from a distribution.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/E/ET/ETHER/File-ShareDir-Install-0.13.tar.gz"
         ],
@@ -7269,9 +8274,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-html-tagset",
+        "name": "perl-modules#perl-html-tagset",
         "description": "HTML::Tagset provides several data tables useful in parsing HTML.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz"
         ],
@@ -7289,9 +8294,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-http-cookies",
+        "name": "perl-modules#perl-http-cookies",
         "description": "HTTP::Cookies provides a class for objects that represent a \"cookie jar\" -- that is, a database of all the HTTP cookies that a given LWP::UserAgent (from libwww-perl-6.43) object knows about.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Cookies-6.08.tar.gz"
         ],
@@ -7304,16 +8309,16 @@
         "version": "6.08",
         "dependencies": {
             "required": [
-                "perl-deps#perl-http-message"
+                "perl-modules#perl-http-message"
             ],
             "recommended": [],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-http-date",
+        "name": "perl-modules#perl-http-date",
         "description": "HTTP::Date provides functions to deal with the date formats used by the HTTP protocol and also with some other date formats.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Date-6.05.tar.gz"
         ],
@@ -7327,15 +8332,15 @@
         "dependencies": {
             "required": [],
             "recommended": [
-                "perl-deps#perl-timedate"
+                "perl-modules#perl-timedate"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-http-message",
+        "name": "perl-modules#perl-http-message",
         "description": "HTTP::Message provides a base class for HTTP style message objects.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Message-6.18.tar.gz"
         ],
@@ -7348,22 +8353,22 @@
         "version": "6.18",
         "dependencies": {
             "required": [
-                "perl-deps#perl-encode-locale",
-                "perl-deps#perl-http-date",
-                "perl-deps#perl-io-html",
-                "perl-deps#perl-lwp-mediatypes",
+                "perl-modules#perl-encode-locale",
+                "perl-modules#perl-http-date",
+                "perl-modules#perl-io-html",
+                "perl-modules#perl-lwp-mediatypes",
                 "perl-modules#perl-uri"
             ],
             "recommended": [
-                "perl-deps#perl-try-tiny"
+                "perl-modules#perl-try-tiny"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-http-negotiate",
+        "name": "perl-modules#perl-http-negotiate",
         "description": "HTTP::Negotiate provides a complete implementation of the HTTP content negotiation algorithm.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz"
         ],
@@ -7377,15 +8382,15 @@
         "dependencies": {
             "required": [],
             "recommended": [
-                "perl-deps#perl-http-message"
+                "perl-modules#perl-http-message"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-importer",
+        "name": "perl-modules#perl-importer",
         "description": "Importer provides an alternative but compatible interface to modules that export symbols.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Importer-0.025.tar.gz"
         ],
@@ -7403,9 +8408,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-io-html",
+        "name": "perl-modules#perl-io-html",
         "description": "IO::HTML opens an HTML file with automatic character set detection.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/C/CJ/CJM/IO-HTML-1.001.tar.gz"
         ],
@@ -7423,9 +8428,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-ipc-system-simple",
+        "name": "perl-modules#perl-ipc-system-simple",
         "description": "IPC::System::Simple takes the hard work out of calling external commands and producing detailed diagnostics.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/J/JK/JKEENAN/IPC-System-Simple-1.26.tar.gz"
         ],
@@ -7443,9 +8448,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-libwww-perl",
+        "name": "perl-modules#perl-libwww-perl",
         "description": "The libwww-perl collection is a set of Perl modules which provides a simple and consistent application programming interface (API) to the World-Wide Web. The main focus of the library is to provide classes and functions that allow you to write WWW clients. The library also contains modules that are of more general use and even classes that help you implement simple HTTP servers.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/libwww-perl-6.43.tar.gz"
         ],
@@ -7458,27 +8463,27 @@
         "version": "6.43",
         "dependencies": {
             "required": [
-                "perl-deps#perl-file-listing",
-                "perl-deps#perl-http-cookies",
+                "perl-modules#perl-file-listing",
+                "perl-modules#perl-http-cookies",
                 "perl-modules#perl-http-daemon",
-                "perl-deps#perl-http-negotiate",
+                "perl-modules#perl-http-negotiate",
                 "perl-modules#perl-html-parser",
-                "perl-deps#perl-net-http",
-                "perl-deps#perl-try-tiny",
-                "perl-deps#perl-www-robotrules"
+                "perl-modules#perl-net-http",
+                "perl-modules#perl-try-tiny",
+                "perl-modules#perl-www-robotrules"
             ],
             "recommended": [
-                "perl-deps#perl-test-fatal",
-                "perl-deps#perl-test-needs",
-                "perl-deps#perl-test-requiresinternet"
+                "perl-modules#perl-test-fatal",
+                "perl-modules#perl-test-needs",
+                "perl-modules#perl-test-requiresinternet"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-list-moreutils-xs",
+        "name": "perl-modules#perl-list-moreutils-xs",
         "description": "List::MoreUtils::XS is a compiled backend for List::MoreUtils",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/List-MoreUtils-XS-0.428.tar.gz"
         ],
@@ -7496,9 +8501,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-list-someutils",
+        "name": "perl-modules#perl-list-someutils",
         "description": "List::SomeUtils provides the stuff misisng in List::Util.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/List-SomeUtils-0.58.tar.gz"
         ],
@@ -7511,17 +8516,17 @@
         "version": "0.58",
         "dependencies": {
             "required": [
-                "perl-deps#perl-module-implementation",
-                "perl-deps#perl-list-someutils-xs"
+                "perl-modules#perl-module-implementation",
+                "perl-modules#perl-list-someutils-xs"
             ],
             "recommended": [],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-list-someutils-xs",
+        "name": "perl-modules#perl-list-someutils-xs",
         "description": "List::SomeUtils::XS is a (faster) XS (eXternal Subroutine) implementation for List::SomeUtils.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/List-SomeUtils-XS-0.58.tar.gz"
         ],
@@ -7535,16 +8540,16 @@
         "dependencies": {
             "required": [],
             "recommended": [
-                "perl-deps#perl-test-leaktrace",
-                "perl-deps#perl-test-warnings"
+                "perl-modules#perl-test-leaktrace",
+                "perl-modules#perl-test-warnings"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-list-utilsby",
+        "name": "perl-modules#perl-list-utilsby",
         "description": "List::UtilsBy provides a number of higher-order list utility functions.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/List-UtilsBy-0.11.tar.gz"
         ],
@@ -7562,9 +8567,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-lwp-mediatypes",
+        "name": "perl-modules#perl-lwp-mediatypes",
         "description": "LWP::MediaTypes guesses the media type (i.e. the MIME Type) for a file or URL.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/LWP-MediaTypes-6.04.tar.gz"
         ],
@@ -7578,15 +8583,15 @@
         "dependencies": {
             "required": [],
             "recommended": [
-                "perl-deps#perl-test-fatal"
+                "perl-modules#perl-test-fatal"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-mime-charset",
+        "name": "perl-modules#perl-mime-charset",
         "description": "MIME::Charset provides information about character sets used for MIME messages o nthe internet, such as their encodings.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/N/NE/NEZUMI/MIME-Charset-1.012.2.tar.gz"
         ],
@@ -7609,9 +8614,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-module-implementation",
+        "name": "perl-modules#perl-module-implementation",
         "description": "Module::Implementation loads one of several alternate underlying implementations of a module (e.g. eXternal Subroutine or pure Perl, or an implementation for a given OS).",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Module-Implementation-0.09.tar.gz"
         ],
@@ -7624,20 +8629,20 @@
         "version": "0.09",
         "dependencies": {
             "required": [
-                "perl-deps#perl-module-runtime",
-                "perl-deps#perl-try-tiny"
+                "perl-modules#perl-module-runtime",
+                "perl-modules#perl-try-tiny"
             ],
             "recommended": [
-                "perl-deps#perl-test-fatal",
-                "perl-deps#perl-test-requires"
+                "perl-modules#perl-test-fatal",
+                "perl-modules#perl-test-requires"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-module-pluggable",
+        "name": "perl-modules#perl-module-pluggable",
         "description": "Module::Pluggable provides a way of having 'plugins' for your module.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/S/SI/SIMONW/Module-Pluggable-5.2.tar.gz"
         ],
@@ -7655,9 +8660,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-module-runtime",
+        "name": "perl-modules#perl-module-runtime",
         "description": "Module::Runtime provides functions to deal with runtime handling of Perl modules.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/Z/ZE/ZEFRAM/Module-Runtime-0.016.tar.gz"
         ],
@@ -7675,9 +8680,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-mro-compat",
+        "name": "perl-modules#perl-mro-compat",
         "description": "The \"mro\" namespace provides several utilities for dealing with method resolution order and method caching in general in Perl 5.9.5 and higher. This module provides those interfaces for earlier versions of Perl.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/H/HA/HAARG/MRO-Compat-0.13.tar.gz"
         ],
@@ -7695,9 +8700,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-namespace-autoclean",
+        "name": "perl-modules#perl-namespace-autoclean",
         "description": "This module is very similar to namespace::clean, except it will clean all imported functions, no matter if you imported them before or after you used the pragma. It will also not touch anything that looks like a method.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/E/ET/ETHER/namespace-autoclean-0.29.tar.gz"
         ],
@@ -7710,19 +8715,19 @@
         "version": "0.29",
         "dependencies": {
             "required": [
-                "perl-deps#perl-namespace-clean",
-                "perl-deps#perl-sub-identify"
+                "perl-modules#perl-namespace-clean",
+                "perl-modules#perl-sub-identify"
             ],
             "recommended": [
-                "perl-deps#perl-test-needs"
+                "perl-modules#perl-test-needs"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-namespace-clean",
+        "name": "perl-modules#perl-namespace-clean",
         "description": "This package allows you to keep imports and functions out of your namespace.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/R/RI/RIBASUSHI/namespace-clean-0.27.tar.gz"
         ],
@@ -7735,17 +8740,17 @@
         "version": "0.27",
         "dependencies": {
             "required": [
-                "perl-deps#perl-b-hooks-endofscope",
-                "perl-deps#perl-package-stash"
+                "perl-modules#perl-b-hooks-endofscope",
+                "perl-modules#perl-package-stash"
             ],
             "recommended": [],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-net-http",
+        "name": "perl-modules#perl-net-http",
         "description": "The Net::HTTP class is a low level HTTP client. An instance of the class represents a connection to an HTTP server.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/Net-HTTP-6.19.tar.gz"
         ],
@@ -7765,9 +8770,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-net-ssleay",
+        "name": "perl-modules#perl-net-ssleay",
         "description": "Net::SSLeay is a PERL extension for using OpenSSL.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/C/CH/CHRISN/Net-SSLeay-1.88.tar.gz"
         ],
@@ -7785,9 +8790,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-number-compare",
+        "name": "perl-modules#perl-number-compare",
         "description": "Number::Compare compiles a simple comparison to an anonymous subroutine, which you can call with a value to be tested against. It understands IEC standard magnitudes (k, ki, m, mi, g, gi).",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/Number-Compare-0.03.tar.gz"
         ],
@@ -7805,9 +8810,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-package-stash",
+        "name": "perl-modules#perl-package-stash",
         "description": "Manipulating stashes (Perl's symbol tables) is occasionally necessary, but incredibly messy, and easy to get wrong. This module hides all of that behind a simple API.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Package-Stash-0.38.tar.gz"
         ],
@@ -7820,20 +8825,20 @@
         "version": "0.38",
         "dependencies": {
             "required": [
-                "perl-deps#perl-dist-checkconflicts",
-                "perl-deps#perl-module-implementation"
+                "perl-modules#perl-dist-checkconflicts",
+                "perl-modules#perl-module-implementation"
             ],
             "recommended": [
-                "perl-deps#perl-test-fatal",
-                "perl-deps#perl-test-requires"
+                "perl-modules#perl-test-fatal",
+                "perl-modules#perl-test-requires"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-params-validate",
+        "name": "perl-modules#perl-params-validate",
         "description": "Params::Validate allows you to validate method or function call parameters to an arbitrary level of specificity.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Params-Validate-1.29.tar.gz"
         ],
@@ -7847,19 +8852,19 @@
         "dependencies": {
             "required": [
                 "perl-modules#perl-module-build",
-                "perl-deps#perl-module-implementation"
+                "perl-modules#perl-module-implementation"
             ],
             "recommended": [
-                "perl-deps#perl-test-fatal",
-                "perl-deps#perl-test-requires"
+                "perl-modules#perl-test-fatal",
+                "perl-modules#perl-test-requires"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-params-validationcompiler",
+        "name": "perl-modules#perl-params-validationcompiler",
         "description": "Params::ValidationCompiler builds an optimized subroutine parameter validator.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Params-ValidationCompiler-0.30.tar.gz"
         ],
@@ -7872,20 +8877,20 @@
         "version": "0.30",
         "dependencies": {
             "required": [
-                "perl-deps#perl-exception-class",
-                "perl-deps#perl-specio"
+                "perl-modules#perl-exception-class",
+                "perl-modules#perl-specio"
             ],
             "recommended": [
-                "perl-deps#perl-test-without-module",
-                "perl-deps#perl-test2-plugin-nowarnings"
+                "perl-modules#perl-test-without-module",
+                "perl-modules#perl-test2-plugin-nowarnings"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-path-tiny",
+        "name": "perl-modules#perl-path-tiny",
         "description": "Path::Tiny provides a small fast utility for working with file paths.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.112.tar.gz"
         ],
@@ -7903,9 +8908,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-role-tiny",
+        "name": "perl-modules#perl-role-tiny",
         "description": "Role::Tiny is a minimalist role composition tool.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Role-Tiny-2.001004.tar.gz"
         ],
@@ -7923,9 +8928,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-scope-guard",
+        "name": "perl-modules#perl-scope-guard",
         "description": "Scope::Guard provides a convenient way to perform cleanup or other forms of resource management at the end of a scope.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/C/CH/CHOCOLATE/Scope-Guard-0.21.tar.gz"
         ],
@@ -7943,9 +8948,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-specio",
+        "name": "perl-modules#perl-specio",
         "description": "Specio provides classes for representing type constraints and coercion, along with syntax sugar for declaring them.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Specio-0.43.tar.gz"
         ],
@@ -7958,27 +8963,27 @@
         "version": "0.43",
         "dependencies": {
             "required": [
-                "perl-deps#perl-devel-stacktrace",
-                "perl-deps#perl-eval-closure",
-                "perl-deps#perl-module-runtime",
-                "perl-deps#perl-role-tiny",
-                "perl-deps#perl-sub-quote",
-                "perl-deps#perl-try-tiny"
+                "perl-modules#perl-devel-stacktrace",
+                "perl-modules#perl-eval-closure",
+                "perl-modules#perl-module-runtime",
+                "perl-modules#perl-role-tiny",
+                "perl-modules#perl-sub-quote",
+                "perl-modules#perl-try-tiny"
             ],
             "recommended": [
-                "perl-deps#perl-mro-compat",
-                "perl-deps#perl-test-fatal",
-                "perl-deps#perl-test-needs"
+                "perl-modules#perl-mro-compat",
+                "perl-modules#perl-test-fatal",
+                "perl-modules#perl-test-needs"
             ],
             "optional": [
-                "perl-deps#perl-namespace-autoclean"
+                "perl-modules#perl-namespace-autoclean"
             ]
         }
     },
     {
-        "name": "perl-deps#perl-sub-exporter-progressive",
+        "name": "perl-modules#perl-sub-exporter-progressive",
         "description": "Sub::Exporter::Progressive is a wrapper for Sub::Exporter.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/F/FR/FREW/Sub-Exporter-Progressive-0.001013.tar.gz"
         ],
@@ -7996,9 +9001,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-sub-identify",
+        "name": "perl-modules#perl-sub-identify",
         "description": "Sub::Identify allows you to retrieve the real name of code references. It is encouraged to migrate to Sub::Util (a core module) when possible.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/R/RG/RGARCIA/Sub-Identify-0.14.tar.gz"
         ],
@@ -8016,9 +9021,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-sub-info",
+        "name": "perl-modules#perl-sub-info",
         "description": "Sub::Info is a tool for inspecting subroutines.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Sub-Info-0.002.tar.gz"
         ],
@@ -8031,16 +9036,16 @@
         "version": "0.002",
         "dependencies": {
             "required": [
-                "perl-deps#perl-importer"
+                "perl-modules#perl-importer"
             ],
             "recommended": [],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-sub-quote",
+        "name": "perl-modules#perl-sub-quote",
         "description": "Sub::Quote provides ways to generate subroutines from strings.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Sub-Quote-2.006003.tar.gz"
         ],
@@ -8054,15 +9059,15 @@
         "dependencies": {
             "required": [],
             "recommended": [
-                "perl-deps#perl-test-fatal"
+                "perl-modules#perl-test-fatal"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-sub-uplevel",
+        "name": "perl-modules#perl-sub-uplevel",
         "description": "Sub::Uplevel allows you to fool a caller that it is running in a higher stack frame.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Sub-Uplevel-0.2800.tar.gz"
         ],
@@ -8080,9 +9085,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-super",
+        "name": "perl-modules#perl-super",
         "description": "SUPER provides easier methods to dispatch control to the superclass (when subclassing a class).",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/C/CH/CHROMATIC/SUPER-1.20190531.tar.gz"
         ],
@@ -8096,15 +9101,15 @@
         "dependencies": {
             "required": [],
             "recommended": [
-                "perl-deps#perl-sub-identify"
+                "perl-modules#perl-sub-identify"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-term-table",
+        "name": "perl-modules#perl-term-table",
         "description": "Term::Table formats a header and rows into a table. This is used by some failing tests to provide diagnostics about what has goen wrong.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Term-Table-0.013.tar.gz"
         ],
@@ -8117,16 +9122,16 @@
         "version": "0.013",
         "dependencies": {
             "required": [
-                "perl-deps#perl-importer"
+                "perl-modules#perl-importer"
             ],
             "recommended": [],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-test-deep",
+        "name": "perl-modules#perl-test-deep",
         "description": "Test::Deep gives you very flexible ways to check that the result you got is the result you were expecting.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Deep-1.128.tar.gz"
         ],
@@ -8144,9 +9149,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-test-exception",
+        "name": "perl-modules#perl-test-exception",
         "description": "Test::Exception provides convenience methods for testing exception based code.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test-Exception-0.43.tar.gz"
         ],
@@ -8159,16 +9164,16 @@
         "version": "0.43",
         "dependencies": {
             "required": [
-                "perl-deps#perl-sub-uplevel"
+                "perl-modules#perl-sub-uplevel"
             ],
             "recommended": [],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-test-fatal",
+        "name": "perl-modules#perl-test-fatal",
         "description": "The Test::Fatal module provides simple helpers for testing code which throws exceptions.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Fatal-0.014.tar.gz"
         ],
@@ -8181,16 +9186,16 @@
         "version": "0.014",
         "dependencies": {
             "required": [
-                "perl-deps#perl-try-tiny"
+                "perl-modules#perl-try-tiny"
             ],
             "recommended": [],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-test-file",
+        "name": "perl-modules#perl-test-file",
         "description": "Test::File provides a collection of test utilities for file attributes.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Test-File-1.443.tar.gz"
         ],
@@ -8204,15 +9209,15 @@
         "dependencies": {
             "required": [],
             "recommended": [
-                "perl-deps#perl-test-utf8"
+                "perl-modules#perl-test-utf8"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-test-file-sharedir",
+        "name": "perl-modules#perl-test-file-sharedir",
         "description": "Test::File::ShareDir is some low level plumbing to enable a distribution to perform tests while consuming its own share directories in a manner similar to how they will be once installed. This allows File-ShareDir-1.116 to see the latest version of content instead of whatever is installed on the target system where you are testing.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/K/KE/KENTNL/Test-File-ShareDir-1.001002.tar.gz"
         ],
@@ -8225,22 +9230,22 @@
         "version": "1.001002",
         "dependencies": {
             "required": [
-                "perl-deps#perl-class-tiny",
-                "perl-deps#perl-file-copy-recursive",
-                "perl-deps#perl-file-sharedir",
-                "perl-deps#perl-path-tiny",
-                "perl-deps#perl-scope-guard"
+                "perl-modules#perl-class-tiny",
+                "perl-modules#perl-file-copy-recursive",
+                "perl-modules#perl-file-sharedir",
+                "perl-modules#perl-path-tiny",
+                "perl-modules#perl-scope-guard"
             ],
             "recommended": [
-                "perl-deps#perl-test-fatal"
+                "perl-modules#perl-test-fatal"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-test-leaktrace",
+        "name": "perl-modules#perl-test-leaktrace",
         "description": "Test::LeakTrace traces memory leaks.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/L/LE/LEEJO/Test-LeakTrace-0.16.tar.gz"
         ],
@@ -8258,9 +9263,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-test-mockmodule",
+        "name": "perl-modules#perl-test-mockmodule",
         "description": "Test::MockModule lets you temporarily redefine subroutines in other packages for the purposes of unit testing.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/G/GF/GFRANKS/Test-MockModule-v0.170.0.tar.gz"
         ],
@@ -8274,18 +9279,18 @@
         "dependencies": {
             "required": [
                 "perl-modules#perl-module-build",
-                "perl-deps#perl-super"
+                "perl-modules#perl-super"
             ],
             "recommended": [
-                "perl-deps#perl-test-warnings"
+                "perl-modules#perl-test-warnings"
             ],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-test-needs",
+        "name": "perl-modules#perl-test-needs",
         "description": "Test::Needs skips tests if a requested module is not present.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Test-Needs-0.002006.tar.gz"
         ],
@@ -8303,9 +9308,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-test-requires",
+        "name": "perl-modules#perl-test-requires",
         "description": "The Test::Requires module checks if another (optional) module can be loaded, and if not it skips all the current tests.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/T/TO/TOKUHIROM/Test-Requires-0.10.tar.gz"
         ],
@@ -8323,9 +9328,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-test-requiresinternet",
+        "name": "perl-modules#perl-test-requiresinternet",
         "description": "Test::RequiresInternet is intended to easily test network connectivity before functional tests begin to non-local Internet resources.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/M/MA/MALLEN/Test-RequiresInternet-0.05.tar.gz"
         ],
@@ -8343,9 +9348,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-test-utf8",
+        "name": "perl-modules#perl-test-utf8",
         "description": "Test::utf8 is a collection of tests useful for dealing with utf8 strings in Perl.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/M/MA/MARKF/Test-utf8-1.01.tar.gz"
         ],
@@ -8363,9 +9368,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-test-warnings",
+        "name": "perl-modules#perl-test-warnings",
         "description": "Test::Warnings tests for warnings and the lack of them.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-Warnings-0.026.tar.gz"
         ],
@@ -8383,9 +9388,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-test-without-module",
+        "name": "perl-modules#perl-test-without-module",
         "description": "This module allows you to deliberately hide modules from a program even though they are installed. This is mostly useful for testing modules that have a fallback when a certain dependency module is not installed.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/C/CO/CORION/Test-Without-Module-0.20.tar.gz"
         ],
@@ -8403,9 +9408,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-test2-plugin-nowarnings",
+        "name": "perl-modules#perl-test2-plugin-nowarnings",
         "description": "Test2::Plugin::NoWarnings causes tests to fail if there are any warnings while they run.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Test2-Plugin-NoWarnings-0.07.tar.gz"
         ],
@@ -8418,7 +9423,7 @@
         "version": "0.07",
         "dependencies": {
             "required": [
-                "perl-deps#perl-test2-suite"
+                "perl-modules#perl-test2-suite"
             ],
             "recommended": [
                 "perl-modules#perl-ipc-run3"
@@ -8427,9 +9432,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-test2-suite",
+        "name": "perl-modules#perl-test2-suite",
         "description": "Test2::Suite is a distribution with a rich set of tools built upon the Test2 framework.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test2-Suite-0.000122.tar.gz"
         ],
@@ -8442,19 +9447,19 @@
         "version": "0.000122",
         "dependencies": {
             "required": [
-                "perl-deps#perl-module-pluggable",
-                "perl-deps#perl-scope-guard",
-                "perl-deps#perl-sub-info",
-                "perl-deps#perl-term-table"
+                "perl-modules#perl-module-pluggable",
+                "perl-modules#perl-scope-guard",
+                "perl-modules#perl-sub-info",
+                "perl-modules#perl-term-table"
             ],
             "recommended": [],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-text-csv_xs",
+        "name": "perl-modules#perl-text-csv_xs",
         "description": "Text::CSV_XS provides facilities for the composition and decomposition of comma-separated values.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/H/HM/HMBRAND/Text-CSV_XS-1.39.tgz"
         ],
@@ -8472,9 +9477,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-text-diff",
+        "name": "perl-modules#perl-text-diff",
         "description": "Text::Diff performs diffs on files and record sets.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/N/NE/NEILB/Text-Diff-1.45.tar.gz"
         ],
@@ -8487,16 +9492,16 @@
         "version": "1.45",
         "dependencies": {
             "required": [
-                "perl-deps#perl-algorithm-diff"
+                "perl-modules#perl-algorithm-diff"
             ],
             "recommended": [],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-text-glob",
+        "name": "perl-modules#perl-text-glob",
         "description": "Text::Glob implements glob(3) style matching that can be used to match against text, rather than fetching names from a filesystem.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/Text-Glob-0.11.tar.gz"
         ],
@@ -8514,9 +9519,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-tie-cycle",
+        "name": "perl-modules#perl-tie-cycle",
         "description": "You use Tie::Cycle to go through a list over and over again. Once you get to the end of the list, you go back to the beginning. You don't have to worry about any of this since the magic of tie does that for you.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Tie-Cycle-1.225.tar.gz"
         ],
@@ -8534,9 +9539,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-timedate",
+        "name": "perl-modules#perl-timedate",
         "description": "TimeDate provides miscellaneous timezone manipulation routines.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/A/AT/ATOOMIC/TimeDate-2.31.tar.gz"
         ],
@@ -8554,9 +9559,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-try-tiny",
+        "name": "perl-modules#perl-try-tiny",
         "description": "Try::Tiny provides try and catch to expect and handle exceptional conditions, avoiding quirks in Perl and common mistakes.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Try-Tiny-0.30.tar.gz"
         ],
@@ -8571,14 +9576,14 @@
             "required": [],
             "recommended": [],
             "optional": [
-                "perl-deps#perl-capture-tiny"
+                "perl-modules#perl-capture-tiny"
             ]
         }
     },
     {
-        "name": "perl-deps#perl-variable-magic",
+        "name": "perl-modules#perl-variable-magic",
         "description": "Magic is Perl's way of enhancing variables. With this module, you can add your own magic to any variable.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/V/VP/VPIT/Variable-Magic-0.62.tar.gz"
         ],
@@ -8596,9 +9601,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-www-robotrules",
+        "name": "perl-modules#perl-www-robotrules",
         "description": "WWW::RobotRules parses robots.txt files, creating a WWW::RobotRules object with methods to check if access to a given URL is prohibited.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/G/GA/GAAS/WWW-RobotRules-6.02.tar.gz"
         ],
@@ -8611,16 +9616,16 @@
         "version": "6.02",
         "dependencies": {
             "required": [
-                "perl-deps#perl-libwww-perl"
+                "perl-modules#perl-libwww-perl"
             ],
             "recommended": [],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-xml-libxml",
+        "name": "perl-modules#perl-xml-libxml",
         "description": "XML::LibXML is a perl binding for libxml2-2.9.10.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/XML-LibXML-2.0201.tar.gz"
         ],
@@ -8633,17 +9638,17 @@
         "version": "2.0201",
         "dependencies": {
             "required": [
-                "perl-deps#perl-alien-libxml2",
-                "perl-deps#perl-xml-sax"
+                "perl-modules#perl-alien-libxml2",
+                "perl-modules#perl-xml-sax"
             ],
             "recommended": [],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-xml-namespacesupport",
+        "name": "perl-modules#perl-xml-namespacesupport",
         "description": "XML::NamespaceSupport offers a simple way to process namespaced XML names from within any application that may need them.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/P/PE/PERIGRIN/XML-NamespaceSupport-1.12.tar.gz"
         ],
@@ -8661,9 +9666,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-xml-sax",
+        "name": "perl-modules#perl-xml-sax",
         "description": "XML::SAX is a SAX parser access API for Perl. It includes classes and APIs required for implementing SAX drivers, along with a factory class for returning any SAX parser installed on the user's system.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-SAX-1.02.tar.gz"
         ],
@@ -8677,17 +9682,17 @@
         "dependencies": {
             "required": [
                 "libxml2",
-                "perl-deps#perl-xml-namespacesupport",
-                "perl-deps#perl-xml-sax-base"
+                "perl-modules#perl-xml-namespacesupport",
+                "perl-modules#perl-xml-sax-base"
             ],
             "recommended": [],
             "optional": []
         }
     },
     {
-        "name": "perl-deps#perl-xml-sax-base",
+        "name": "perl-modules#perl-xml-sax-base",
         "description": "This module has a very simple task - to be a base class for PerlSAX drivers and filters.",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-SAX-Base-1.09.tar.gz"
         ],
@@ -8705,9 +9710,9 @@
         }
     },
     {
-        "name": "perl-deps#perl-xml-sax-expat",
+        "name": "perl-modules#perl-xml-sax-expat",
         "description": "XML::SAX::Expat is an implementation of a SAX2 driver sitting on top of Expat (XML::Parser).",
-        "section": "Perl Dep",
+        "section": "Perl Module",
         "downloadUrls": [
             "https://cpan.metacpan.org/authors/id/B/BJ/BJOERN/XML-SAX-Expat-0.51.tar.gz"
         ],
@@ -8720,7 +9725,7 @@
         "version": "0.51",
         "dependencies": {
             "required": [
-                "perl-deps#perl-xml-sax"
+                "perl-modules#perl-xml-sax"
             ],
             "recommended": [],
             "optional": []
@@ -12207,113 +13212,369 @@
         }
     },
     {
-        "name": "x7driver",
-        "description": "The Xorg Drivers page contains the instructions for building Xorg drivers that are necessary in order for Xorg Server to take advantage of the hardware that it is running on. At least one input and one video driver are required for Xorg Server to start.",
-        "section": "x",
+        "name": "x7driver#libevdev",
+        "description": "The libevdev package contains common functions for Xorg input drivers.",
+        "section": "Xorg Driver",
         "downloadUrls": [
-            "https://www.freedesktop.org/software/libevdev/libevdev-1.9.0.tar.xz",
-            "https://www.x.org/pub/individual/driver/xf86-input-evdev-2.10.6.tar.bz2",
-            "https://www.freedesktop.org/software/libinput/libinput-1.15.3.tar.xz",
-            "https://www.x.org/pub/individual/driver/xf86-input-libinput-0.29.0.tar.bz2",
-            "https://www.x.org/pub/individual/driver/xf86-input-synaptics-1.9.1.tar.bz2",
-            "https://github.com/linuxwacom/xf86-input-wacom/releases/download/xf86-input-wacom-0.39.0/xf86-input-wacom-0.39.0.tar.bz2",
-            "https://www.x.org/pub/individual/driver/xf86-video-amdgpu-19.1.0.tar.bz2",
-            "https://www.x.org/pub/individual/driver/xf86-video-ati-19.1.0.tar.bz2",
-            "https://www.x.org/pub/individual/driver/xf86-video-fbdev-0.5.0.tar.bz2",
-            "http://anduin.linuxfromscratch.org/BLFS/xf86-video-intel/xf86-video-intel-20200218.tar.xz",
-            "https://www.x.org/pub/individual/driver/xf86-video-nouveau-1.0.16.tar.bz2",
-            "https://www.x.org/pub/individual/driver/xf86-video-vmware-13.3.0.tar.bz2",
-            "https://github.com/intel/libva/releases/download/2.6.1/libva-2.6.1.tar.bz2",
-            "https://github.com/intel/intel-vaapi-driver/releases/download/2.4.0/intel-vaapi-driver-2.4.0.tar.bz2",
-            "https://gitlab.freedesktop.org/vdpau/libvdpau/-/archive/1.3/libvdpau-1.3.tar.bz2",
-            "https://github.com/i-rinat/libvdpau-va-gl/archive/v0.4.0/libvdpau-va-gl-0.4.0.tar.gz"
+            "https://www.freedesktop.org/software/libevdev/libevdev-1.9.0.tar.xz"
         ],
         "commands": [
             "./configure $XORG_CONFIG &&\nmake",
-            "as_root make install",
-            "./configure $XORG_CONFIG &&\nmake",
-            "as_root make install",
-            "mkdir build &&\ncd    build &&\n\nmeson --prefix=$XORG_PREFIX \\\n      -Dudev-dir=/lib/udev  \\\n      -Ddebug-gui=false     \\\n      -Dtests=false         \\\n      -Ddocumentation=false \\\n      -Dlibwacom=false      \\\n      ..                    &&\nninja",
-            "as_root ninja install",
-            "as_root install -v -dm755      /usr/share/doc/libinput-1.15.3/{html,api} &&\ncp -rv Documentation/* /usr/share/doc/libinput-1.15.3/html &&\ncp -rv api/*           /usr/share/doc/libinput-1.15.3/api",
-            "./configure $XORG_CONFIG &&\nmake",
-            "as_root make install",
-            "./configure $XORG_CONFIG &&\nmake",
-            "as_root make install",
-            "./configure $XORG_CONFIG \\\n            --with-udev-rules-dir=/lib/udev/rules.d \\\n            --with-systemd-unit-dir=/lib/systemd/system &&\nmake",
-            "as_root make install",
-            "./configure $XORG_CONFIG &&\nmake",
-            "as_root make install",
-            "./configure $XORG_CONFIG &&\nmake",
-            "as_root make install",
-            "./configure $XORG_CONFIG &&\nmake",
-            "as_root make install",
-            "./autogen.sh $XORG_CONFIG     \\\n            --enable-kms-only \\\n            --enable-uxa      \\\n            --mandir=/usr/share/man &&\nmake",
-            "as_root make install &&\n      \nmv -v /usr/share/man/man4/intel-virtual-output.4 \\\n      /usr/share/man/man1/intel-virtual-output.1 &&\n      \nsed -i '/\\.TH/s/4/1/' /usr/share/man/man1/intel-virtual-output.1",
-            "as_root cat >> /etc/X11/xorg.conf.d/20-intel.conf << \"EOF\"\nSection   \"Device\"\n        Identifier \"Intel Graphics\"\n        Driver     \"intel\"\n        #Option     \"DRI\" \"2\"            # DRI3 is default\n        #Option     \"AccelMethod\"  \"sna\" # default\n        #Option     \"AccelMethod\"  \"uxa\" # fallback\nEndSection\nEOF",
-            "./configure $XORG_CONFIG &&\nmake",
-            "as_root make install",
-            "./configure $XORG_CONFIG &&\nmake",
-            "as_root make install",
-            "./configure $XORG_CONFIG &&\nmake",
-            "as_root make install",
-            "tar -xvf ../intel-vaapi-driver-2.4.0.tar.bz2 &&\ncd intel-vaapi-driver-2.4.0",
-            "./configure $XORG_CONFIG &&\nmake",
-            "as_root make install",
-            "mkdir build &&\ncd    build &&\n\nmeson --prefix=$XORG_PREFIX .. &&\nninja",
-            "as_root ninja install",
-            "mkdir build &&\ncd    build &&\n\ncmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=$XORG_PREFIX .. &&\nmake",
-            "as_root make install",
-            "as_root echo \"export VDPAU_DRIVER=va_gl\" >> /etc/profile.d/xorg.sh"
+            "as_root make install"
         ],
         "url": "https://www.freedesktop.org/software/libevdev/libevdev-1.9.0.tar.xz",
         "tarball": "libevdev-1.9.0.tar.xz",
         "version": "1.9.0",
         "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": [
+                "doxygen",
+                "python2",
+                "valgrind"
+            ]
+        }
+    },
+    {
+        "name": "x7driver#xorg-evdev-driver",
+        "description": "The Xorg Evdev Driver package contains a Generic Linux input driver for the Xorg X server. It handles keyboard, mouse, touchpads and wacom devices, though for touchpad and wacom advanced handling, additional drivers are required.",
+        "section": "Xorg Driver",
+        "downloadUrls": [
+            "https://www.x.org/pub/individual/driver/xf86-input-evdev-2.10.6.tar.bz2"
+        ],
+        "commands": [
+            "./configure $XORG_CONFIG &&\nmake",
+            "as_root make install"
+        ],
+        "url": "https://www.x.org/pub/individual/driver/xf86-input-evdev-2.10.6.tar.bz2",
+        "tarball": "xf86-input-evdev-2.10.6.tar.bz2",
+        "version": "2.10.6",
+        "dependencies": {
             "required": [
                 "x7driver#libevdev",
                 "mtdev",
-                "xorg-server",
+                "xorg-server"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "x7driver#libinput",
+        "description": "libinput is a library that handles input devices for display servers and other applications that need to directly deal with input devices.",
+        "section": "Xorg Driver",
+        "downloadUrls": [
+            "https://www.freedesktop.org/software/libinput/libinput-1.15.3.tar.xz"
+        ],
+        "commands": [
+            "mkdir build &&\ncd    build &&\n\nmeson --prefix=$XORG_PREFIX \\\n      -Dudev-dir=/lib/udev  \\\n      -Ddebug-gui=false     \\\n      -Dtests=false         \\\n      -Ddocumentation=false \\\n      -Dlibwacom=false      \\\n      ..                    &&\nninja",
+            "as_root ninja install",
+            "as_root install -v -dm755      /usr/share/doc/libinput-1.15.3/{html,api} &&\ncp -rv Documentation/* /usr/share/doc/libinput-1.15.3/html &&\ncp -rv api/*           /usr/share/doc/libinput-1.15.3/api"
+        ],
+        "url": "https://www.freedesktop.org/software/libinput/libinput-1.15.3.tar.xz",
+        "tarball": "libinput-1.15.3.tar.xz",
+        "version": "1.15.3",
+        "dependencies": {
+            "required": [
                 "x7driver#libevdev",
-                "mtdev",
+                "mtdev"
+            ],
+            "recommended": [],
+            "optional": [
+                "valgrind",
+                "gtk3",
+                "libwacom"
+            ]
+        }
+    },
+    {
+        "name": "x7driver#xorg-libinput-driver",
+        "description": "The X.Org Libinput Driver is a thin wrapper around libinput and allows for libinput to be used for input devices in X. This driver can be used as as drop-in replacement for evdev and synaptics.",
+        "section": "Xorg Driver",
+        "downloadUrls": [
+            "https://www.x.org/pub/individual/driver/xf86-input-libinput-0.29.0.tar.bz2"
+        ],
+        "commands": [
+            "./configure $XORG_CONFIG &&\nmake",
+            "as_root make install"
+        ],
+        "url": "https://www.x.org/pub/individual/driver/xf86-input-libinput-0.29.0.tar.bz2",
+        "tarball": "xf86-input-libinput-0.29.0.tar.bz2",
+        "version": "0.29.0",
+        "dependencies": {
+            "required": [
                 "x7driver#libinput",
-                "xorg-server",
+                "xorg-server"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "x7driver#xorg-synaptics-driver",
+        "description": "The Xorg Synaptics Driver package contains the X.Org Input Driver, support programs and SDK for Synaptics touchpads. Even though the evdev driver can handle touchpads very well, this driver is required if you want to use advanced features like multi tapping, scrolling with touchpad, turning the touchpad off while typing, etc.",
+        "section": "Xorg Driver",
+        "downloadUrls": [
+            "https://www.x.org/pub/individual/driver/xf86-input-synaptics-1.9.1.tar.bz2"
+        ],
+        "commands": [
+            "./configure $XORG_CONFIG &&\nmake",
+            "as_root make install"
+        ],
+        "url": "https://www.x.org/pub/individual/driver/xf86-input-synaptics-1.9.1.tar.bz2",
+        "tarball": "xf86-input-synaptics-1.9.1.tar.bz2",
+        "version": "1.9.1",
+        "dependencies": {
+            "required": [
                 "x7driver#libevdev",
-                "xorg-server",
-                "xorg-server",
-                "xorg-server",
-                "xorg-server",
-                "xorg-server",
+                "xorg-server"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "x7driver#xorg-wacom-driver",
+        "description": "The Xorg Wacom Driver package contains the X.Org X11 driver and SDK for Wacom and Wacom-like tablets. It is not required to use a Wacom tablet, the xf86-input-evdev driver can handle these devices without problems.",
+        "section": "Xorg Driver",
+        "downloadUrls": [
+            "https://github.com/linuxwacom/xf86-input-wacom/releases/download/xf86-input-wacom-0.39.0/xf86-input-wacom-0.39.0.tar.bz2"
+        ],
+        "commands": [
+            "./configure $XORG_CONFIG \\\n            --with-udev-rules-dir=/lib/udev/rules.d \\\n            --with-systemd-unit-dir=/lib/systemd/system &&\nmake",
+            "as_root make install"
+        ],
+        "url": "https://github.com/linuxwacom/xf86-input-wacom/releases/download/xf86-input-wacom-0.39.0/xf86-input-wacom-0.39.0.tar.bz2",
+        "tarball": "xf86-input-wacom-0.39.0.tar.bz2",
+        "version": "0.39.0",
+        "dependencies": {
+            "required": [
+                "xorg-server"
+            ],
+            "recommended": [],
+            "optional": [
+                "doxygen",
+                "graphviz"
+            ]
+        }
+    },
+    {
+        "name": "x7driver#xorg-amdgpu-driver",
+        "description": "The Xorg AMDGPU Driver package contains the X.Org Video Driver for newer AMD Radeon video cards starting from Volcanic Islands. It can also be used for Southern and Sea Islands if the experimental support was enabled in the kernel.",
+        "section": "Xorg Driver",
+        "downloadUrls": [
+            "https://www.x.org/pub/individual/driver/xf86-video-amdgpu-19.1.0.tar.bz2"
+        ],
+        "commands": [
+            "./configure $XORG_CONFIG &&\nmake",
+            "as_root make install"
+        ],
+        "url": "https://www.x.org/pub/individual/driver/xf86-video-amdgpu-19.1.0.tar.bz2",
+        "tarball": "xf86-video-amdgpu-19.1.0.tar.bz2",
+        "version": "19.1.0",
+        "dependencies": {
+            "required": [
+                "xorg-server"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "x7driver#xorg-ati-driver",
+        "description": "The Xorg ATI Driver package contains the X.Org Video Driver for ATI Radeon video cards including all chipsets ranging from R100 to the \"Volcanic Islands\" chipsets.",
+        "section": "Xorg Driver",
+        "downloadUrls": [
+            "https://www.x.org/pub/individual/driver/xf86-video-ati-19.1.0.tar.bz2"
+        ],
+        "commands": [
+            "./configure $XORG_CONFIG &&\nmake",
+            "as_root make install"
+        ],
+        "url": "https://www.x.org/pub/individual/driver/xf86-video-ati-19.1.0.tar.bz2",
+        "tarball": "xf86-video-ati-19.1.0.tar.bz2",
+        "version": "19.1.0",
+        "dependencies": {
+            "required": [
+                "xorg-server"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "x7driver#xorg-fbdev-driver",
+        "description": "The Xorg Fbdev Driver package contains the X.Org Video Driver for framebuffer devices. This driver is often used as fallback driver if the hardware specific and VESA drivers fail to load or are not present. If this driver is not installed, Xorg Server will print a warning on startup, but it can be safely ignored if hardware specific driver works well.",
+        "section": "Xorg Driver",
+        "downloadUrls": [
+            "https://www.x.org/pub/individual/driver/xf86-video-fbdev-0.5.0.tar.bz2"
+        ],
+        "commands": [
+            "./configure $XORG_CONFIG &&\nmake",
+            "as_root make install"
+        ],
+        "url": "https://www.x.org/pub/individual/driver/xf86-video-fbdev-0.5.0.tar.bz2",
+        "tarball": "xf86-video-fbdev-0.5.0.tar.bz2",
+        "version": "0.5.0",
+        "dependencies": {
+            "required": [
+                "xorg-server"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "x7driver#xorg-intel-driver",
+        "description": "The Xorg Intel Driver package contains the X.Org Video Driver for Intel integrated video chips including 8xx, 9xx, Gxx, Qxx, HD, Iris, and Iris Pro graphics processors.",
+        "section": "Xorg Driver",
+        "downloadUrls": [
+            "http://anduin.linuxfromscratch.org/BLFS/xf86-video-intel/xf86-video-intel-20200218.tar.xz"
+        ],
+        "commands": [
+            "./autogen.sh $XORG_CONFIG     \\\n            --enable-kms-only \\\n            --enable-uxa      \\\n            --mandir=/usr/share/man &&\nmake",
+            "as_root make install &&\n      \nmv -v /usr/share/man/man4/intel-virtual-output.4 \\\n      /usr/share/man/man1/intel-virtual-output.1 &&\n      \nsed -i '/\\.TH/s/4/1/' /usr/share/man/man1/intel-virtual-output.1",
+            "as_root cat >> /etc/X11/xorg.conf.d/20-intel.conf << \"EOF\"\nSection   \"Device\"\n        Identifier \"Intel Graphics\"\n        Driver     \"intel\"\n        #Option     \"DRI\" \"2\"            # DRI3 is default\n        #Option     \"AccelMethod\"  \"sna\" # default\n        #Option     \"AccelMethod\"  \"uxa\" # fallback\nEndSection\nEOF"
+        ],
+        "url": "http://anduin.linuxfromscratch.org/BLFS/xf86-video-intel/xf86-video-intel-20200218.tar.xz",
+        "tarball": "xf86-video-intel-20200218.tar.xz",
+        "version": "20200218",
+        "dependencies": {
+            "required": [
                 "xcb-util",
-                "xorg-server",
-                "xorg-server",
-                "xorg-server",
-                "libdrm",
-                "x7lib",
-                "cmake",
-                "ffmpeg",
-                "x7driver#libvdpau",
-                "x7driver#libva"
+                "xorg-server"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "x7driver#xorg-nouveau-driver",
+        "description": "The Xorg Nouveau Driver package contains the X.Org Video Driver for NVidia Cards including RIVA TNT, RIVA TNT2, GeForce 256, QUADRO, GeForce2, QUADRO2, GeForce3, QUADRO DDC, nForce, nForce2, GeForce4, QUADRO4, GeForce FX, QUADRO FX, GeForce 6XXX and GeForce 7xxx chipsets.",
+        "section": "Xorg Driver",
+        "downloadUrls": [
+            "https://www.x.org/pub/individual/driver/xf86-video-nouveau-1.0.16.tar.bz2"
+        ],
+        "commands": [
+            "./configure $XORG_CONFIG &&\nmake",
+            "as_root make install"
+        ],
+        "url": "https://www.x.org/pub/individual/driver/xf86-video-nouveau-1.0.16.tar.bz2",
+        "tarball": "xf86-video-nouveau-1.0.16.tar.bz2",
+        "version": "1.0.16",
+        "dependencies": {
+            "required": [
+                "xorg-server"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "x7driver#xorg-vmware-driver",
+        "description": "The Xorg VMware Driver package contains the X.Org Video Driver for VMware SVGA virtual video cards.",
+        "section": "Xorg Driver",
+        "downloadUrls": [
+            "https://www.x.org/pub/individual/driver/xf86-video-vmware-13.3.0.tar.bz2"
+        ],
+        "commands": [
+            "./configure $XORG_CONFIG &&\nmake",
+            "as_root make install"
+        ],
+        "url": "https://www.x.org/pub/individual/driver/xf86-video-vmware-13.3.0.tar.bz2",
+        "tarball": "xf86-video-vmware-13.3.0.tar.bz2",
+        "version": "13.3.0",
+        "dependencies": {
+            "required": [
+                "xorg-server"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "x7driver#libva",
+        "description": "The libva package contains a library which provides access to hardware accelerated video processing, using hardware to accelerate video processing in order to offload the central processing unit (CPU) to decode and encode compressed digital video. The VA API video decode/encode interface is platform and window system independent targeted at Direct Rendering Infrastructure (DRI) in the X Window System however it can potentially also be used with direct framebuffer and graphics sub-systems for video output. Accelerated processing includes support for video decoding, video encoding, subpicture blending, and rendering.",
+        "section": "Xorg Driver",
+        "downloadUrls": [
+            "https://github.com/intel/libva/releases/download/2.6.1/libva-2.6.1.tar.bz2",
+            "https://github.com/intel/intel-vaapi-driver/releases/download/2.4.0/intel-vaapi-driver-2.4.0.tar.bz2"
+        ],
+        "commands": [
+            "./configure $XORG_CONFIG &&\nmake",
+            "as_root make install",
+            "tar -xvf ../intel-vaapi-driver-2.4.0.tar.bz2 &&\ncd intel-vaapi-driver-2.4.0",
+            "./configure $XORG_CONFIG &&\nmake",
+            "as_root make install"
+        ],
+        "url": "https://github.com/intel/libva/releases/download/2.6.1/libva-2.6.1.tar.bz2",
+        "tarball": "libva-2.6.1.tar.bz2",
+        "version": "2.6.1",
+        "dependencies": {
+            "required": [
+                "libdrm"
             ],
             "recommended": [
                 "mesa"
             ],
             "optional": [
                 "doxygen",
-                "python2",
-                "valgrind",
-                "valgrind",
-                "gtk3",
-                "libwacom",
-                "doxygen",
-                "graphviz",
-                "doxygen",
-                "wayland",
+                "wayland"
+            ]
+        }
+    },
+    {
+        "name": "x7driver#libvdpau",
+        "description": "The libvdpau package contains a library which implements the VDPAU library.",
+        "section": "Xorg Driver",
+        "downloadUrls": [
+            "https://gitlab.freedesktop.org/vdpau/libvdpau/-/archive/1.3/libvdpau-1.3.tar.bz2"
+        ],
+        "commands": [
+            "mkdir build &&\ncd    build &&\n\nmeson --prefix=$XORG_PREFIX .. &&\nninja",
+            "as_root ninja install"
+        ],
+        "url": "https://gitlab.freedesktop.org/vdpau/libvdpau/-/archive/1.3/libvdpau-1.3.tar.bz2",
+        "tarball": "libvdpau-1.3.tar.bz2",
+        "version": "1.3",
+        "dependencies": {
+            "required": [
+                "x7lib"
+            ],
+            "recommended": [],
+            "optional": [
                 "doxygen",
                 "graphviz",
                 "texlive",
                 "tl-installer",
-                "mesa",
+                "mesa"
+            ]
+        }
+    },
+    {
+        "name": "x7driver#libvdpau-va-gl",
+        "description": "The libvdpau-va-gl package contains a library which implements the VDPAU library. Libvdpau_va_gl uses OpenGL under the hood to accelerate drawing and scaling and the VA-API (if available) to accelerate video decoding. For now VA-API is available on some Intel chips, and on some AMD video adapters with the help of the libvdpau driver.",
+        "section": "Xorg Driver",
+        "downloadUrls": [
+            "https://github.com/i-rinat/libvdpau-va-gl/archive/v0.4.0/libvdpau-va-gl-0.4.0.tar.gz"
+        ],
+        "commands": [
+            "mkdir build &&\ncd    build &&\n\ncmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=$XORG_PREFIX .. &&\nmake",
+            "as_root make install",
+            "as_root echo \"export VDPAU_DRIVER=va_gl\" >> /etc/profile.d/xorg.sh"
+        ],
+        "url": "https://github.com/i-rinat/libvdpau-va-gl/archive/v0.4.0/libvdpau-va-gl-0.4.0.tar.gz",
+        "tarball": "libvdpau-va-gl-0.4.0.tar.gz",
+        "version": "0.4.0",
+        "dependencies": {
+            "required": [
+                "cmake",
+                "ffmpeg",
+                "x7driver#libvdpau",
+                "x7driver#libva"
+            ],
+            "recommended": [],
+            "optional": [
                 "doxygen",
                 "graphviz",
                 "texlive",

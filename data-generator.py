@@ -182,7 +182,9 @@ def parse_section(module_name, section, doc):
     elif section == 'Perl Module':
         prefix = 'perl-modules#'
     elif section == 'Perl Dep':
-        prefix = 'perl-deps#'
+        prefix = 'perl-modules#'
+    elif section == 'Xorg Driver':
+        prefix = 'x7driver#'
     package['name'] = prefix + module_name
     package['description'] = get_description(doc)
     package['section'] = section
@@ -225,6 +227,28 @@ def validate_dependencies(packages):
                 package['dependencies']['recommended'].remove(name)
             if name in package['dependencies']['optional']:
                 package['dependencies']['optional'].remove(name)
+        required = list()
+        recommended = list()
+        optional = list()
+        for dep in package['dependencies']['required']:
+            if 'perl-deps' in dep:
+                required.append(dep.replace('perl-deps', 'perl-modules'))
+            else:
+                required.append(dep)
+        for dep in package['dependencies']['recommended']:
+            if 'perl-deps' in dep:
+                recommended.append(dep.replace('perl-deps', 'perl-modules'))
+            else:
+                recommended.append(dep)
+        for dep in package['dependencies']['optional']:
+            if 'perl-deps' in dep:
+                optional.append(dep.replace('perl-deps', 'perl-modules'))
+            else:
+                optional.append(dep)
+        package['dependencies']['required'] = required
+        package['dependencies']['recommended'] = recommended
+        package['dependencies']['optional'] = optional
+        
 
 def get_packages(index_path):
     links = get_links(index_path)
@@ -235,8 +259,12 @@ def get_packages(index_path):
             packages.extend(modules)
         elif 'perl-modules' in link:
             modules = parse_modules_page(link, 'Perl Module')
+            packages.extend(modules)
         elif 'perl-deps' in link:
-            modules = parse_modules_page(link, 'Perl Dep')
+            modules = parse_modules_page(link, 'Perl Module')
+            packages.extend(modules)
+        elif 'x7driver' in link:
+            modules = parse_modules_page(link, 'Xorg Driver')
             packages.extend(modules)
         else:
             package = parse_page(link)
