@@ -174,6 +174,41 @@ def parse_page(page_path):
         package['dependencies'] = get_dependencies(doc)
         return package
 
+def parse_section(module_name, section, doc):
+    package = dict()
+    prefix = ''
+    if section == 'Python Module':
+        prefix = 'python-modules#'
+    elif section == 'Perl Module':
+        prefix = 'perl-modules#'
+    elif section == 'Perl Dep':
+        prefix = 'perl-deps#'
+    package['name'] = prefix + module_name
+    package['description'] = get_description(doc)
+    package['section'] = section
+    package['downloadUrls'] = get_unique_urls(get_download_urls(doc))
+    package['commands'] = get_commands(doc)
+    package['url'] = None
+    if len(package['downloadUrls']) > 0:
+        package['url'] = package['downloadUrls'][0]
+    package['tarball'] = get_tarball(package['url'])
+    package['version'] = get_version(package['tarball'])
+    package['dependencies'] = get_dependencies(doc)
+    return package
+
+def parse_modules_page(python_modules_page, module_type):
+    with open(python_modules_page, 'rb') as fp:
+        data = fp.read()
+        doc = BeautifulSoup(data, features='lxml')
+        packages = list()
+        modules_anchors = doc.select('div.itemizedlist ul.compact li.listitem a.xref')
+        for module_anchor in modules_anchors:
+            module_name = module_anchor.attrs['href'].split('#')[-1]
+            section_anchor = doc.select_one('div.sect2 h2.sect2 a#' + module_name)
+            section = section_anchor.parent.parent
+            packages.append(parse_section(module_name, module_type, section))
+        return packages
+
 def is_valid(package):
     if package['name'] not in ['krameworks5', 'plasma-all', 'alsa', 'profile'] and (package['description'] == None or len(package['commands']) == 0):
         invalid_packages.append(package['name'])
@@ -195,9 +230,18 @@ def get_packages(index_path):
     links = get_links(index_path)
     packages = list()
     for link in links:
-        package = parse_page(link)
-        if is_valid(package):
-            packages.append(package)
+        if 'python-modules' in link:
+            modules = parse_modules_page(link, 'Python Module')
+            packages.extend(modules)
+        elif 'perl-modules' in link:
+            modules = parse_modules_page(link, 'Perl Module')
+        elif 'perl-deps' in link:
+            modules = parse_modules_page(link, 'Perl Dep')
+            packages.extend(modules)
+        else:
+            package = parse_page(link)
+            if is_valid(package):
+                packages.append(package)
     return packages
 
 if __name__ == "__main__":

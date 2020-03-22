@@ -6571,503 +6571,13 @@
         }
     },
     {
-        "name": "perl-modules",
-        "description": "The Perl module packages (also referred to as Distributions, because each can contain multiple modules) add useful objects to the Perl language. The packages listed on this page are required or recommended for other packages in the book. If they have dependent modules, those are either on this page or else on the next page (Perl Module Dependencies).",
-        "section": "general",
+        "name": "perl-deps#perl-algorithm-diff",
+        "description": "Algorithm::Diff computes 'intelligent' differences between two files or lists.",
+        "section": "Perl Dep",
         "downloadUrls": [
-            "https://www.cpan.org/authors/id/P/PH/PHRED/Archive-Zip-1.67.tar.gz",
-            "https://www.cpan.org/authors/id/V/VP/VPIT/autovivification-0.18.tar.gz",
-            "https://www.cpan.org/authors/id/B/BD/BDFOY/Business-ISBN-3.005.tar.gz",
-            "https://www.cpan.org/authors/id/B/BD/BDFOY/Business-ISMN-1.201.tar.gz",
-            "https://www.cpan.org/authors/id/B/BD/BDFOY/Business-ISSN-1.003.tar.gz",
-            "https://www.cpan.org/authors/id/K/KA/KASEI/Class-Accessor-0.51.tar.gz",
-            "https://www.cpan.org/authors/id/D/DC/DCANTRELL/Data-Compare-1.27.tar.gz",
-            "https://www.cpan.org/authors/id/G/GA/GAAS/Data-Dump-1.23.tar.gz",
-            "https://www.cpan.org/authors/id/M/MW/MWX/Data-Uniqid-0.12.tar.gz",
-            "https://www.cpan.org/authors/id/W/WY/WYANT/DateTime-Calendar-Julian-0.102.tar.gz",
-            "https://www.cpan.org/authors/id/D/DR/DROLSKY/DateTime-Format-Builder-0.82.tar.gz",
-            "https://www.cpan.org/authors/id/N/NE/NEZUMI/Encode-EUCJPASCII-0.03.tar.gz",
-            "https://www.cpan.org/authors/id/A/AU/AUDREYT/Encode-HanExtra-0.23.tar.gz",
-            "https://www.cpan.org/authors/id/D/DA/DANKOGAI/Encode-JIS2K-0.03.tar.gz",
-            "https://www.cpan.org/authors/id/L/LE/LEONT/File-Slurper-0.012.tar.gz",
-            "https://www.cpan.org/authors/id/P/PL/PLICEASE/File-Which-1.23.tar.gz",
-            "https://www.cpan.org/authors/id/G/GA/GAAS/HTML-Parser-3.72.tar.gz",
-            "https://www.cpan.org/authors/id/O/OA/OALDERS/HTTP-Daemon-6.06.tar.gz",
-            "https://www.cpan.org/authors/id/S/SU/SULLR/IO-Socket-SSL-2.067.tar.gz",
-            "https://www.cpan.org/authors/id/G/GA/GAAS/IO-String-1.08.tar.gz",
-            "https://www.cpan.org/authors/id/R/RJ/RJBS/IPC-Run3-0.048.tar.gz",
-            "https://www.cpan.org/authors/id/A/AL/ALINKE/Lingua-Translit-0.28.tar.gz",
-            "https://www.cpan.org/authors/id/D/DR/DROLSKY/List-AllUtils-0.16.tar.gz",
-            "https://www.cpan.org/authors/id/R/RE/REHSACK/List-MoreUtils-0.428.tar.gz",
-            "https://www.cpan.org/authors/id/M/MS/MSCHILLI/Log-Log4perl-1.49.tar.gz",
-            "http://www.linuxfromscratch.org/patches/blfs/svn/LWP-Protocol-https-6.07-system_certs-1.patch",
-            "https://www.cpan.org/authors/id/O/OA/OALDERS/LWP-Protocol-https-6.07.tar.gz",
-            "https://cpan.metacpan.org/authors/id/L/LE/LEONT/Module-Build-0.4231.tar.gz",
-            "https://www.cpan.org/authors/id/N/NL/NLNETLABS/Net-DNS-1.22.tar.gz",
-            "https://www.cpan.org/authors/id/J/JT/JTBRAUN/Parse-RecDescent-1.967015.tar.gz",
-            "https://www.cpan.org/authors/id/W/WB/WBRASWELL/Parse-Yapp-1.21.tar.gz",
-            "https://www.cpan.org/authors/id/L/LE/LEONT/PerlIO-utf8_strict-0.007.tar.gz",
-            "https://www.cpan.org/authors/id/A/AB/ABIGAIL/Regexp-Common-2017060201.tar.gz",
-            "https://www.cpan.org/authors/id/R/RA/RAAB/SGMLSpm-1.1.tar.gz",
-            "https://www.cpan.org/authors/id/S/SA/SALVA/Sort-Key-1.33.tar.gz",
-            "https://www.cpan.org/authors/id/D/DA/DANBOO/Test-Command-0.11.tar.gz",
-            "https://www.cpan.org/authors/id/D/DC/DCANTRELL/Test-Differences-0.67.tar.gz",
-            "https://www.cpan.org/authors/id/A/AM/AMBS/Text-BibTeX-0.88.tar.gz",
-            "https://www.cpan.org/authors/id/I/IS/ISHIGAKI/Text-CSV-2.00.tar.gz",
-            "https://www.cpan.org/authors/id/S/SY/SYP/Text-Roman-3.5.tar.gz",
-            "https://www.cpan.org/authors/id/S/SA/SADAHIRO/Unicode-Collate-1.27.tar.gz",
-            "https://www.cpan.org/authors/id/N/NE/NEZUMI/Unicode-LineBreak-2019.001.tar.gz",
-            "https://www.cpan.org/authors/id/O/OA/OALDERS/URI-1.76.tar.gz",
-            "https://www.cpan.org/authors/id/M/MA/MARKOV/XML-LibXML-Simple-1.01.tar.gz",
-            "https://www.cpan.org/authors/id/S/SH/SHLOMIF/XML-LibXSLT-1.99.tar.gz",
-            "https://www.cpan.org/authors/id/G/GR/GRANTM/XML-Simple-2.25.tar.gz",
-            "https://www.cpan.org/authors/id/J/JO/JOSEPHW/XML-Writer-0.625.tar.gz"
+            "https://cpan.metacpan.org/authors/id/T/TY/TYEMQ//Algorithm-Diff-1.1903.tar.gz"
         ],
         "commands": [
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "PERL_USE_UNSAFE_INC=1 perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "yes | perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "patch -Np1 -i ../LWP-Protocol-https-6.07-system_certs-1.patch",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "chmod -v 644 MYMETA.yml",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "as_root ln -sv sgmlspl.pl /usr/bin/sgmlspl",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Build.PL &&\n./Build       &&\n./Build test",
-            "as_root ./Build install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "as_root install <Module::Name>",
-            "as_root cpan -i <Module1::Name> <Module2::Name>"
-        ],
-        "url": "https://www.cpan.org/authors/id/P/PH/PHRED/Archive-Zip-1.67.tar.gz",
-        "tarball": "Archive-Zip-1.67.tar.gz",
-        "version": "1.67",
-        "dependencies": {
-            "required": [
-                "unzip",
-                "perl-deps#perl-business-isbn-data",
-                "perl-deps#perl-tie-cycle",
-                "perl-deps#perl-clone",
-                "perl-deps#perl-file-find-rule",
-                "perl-deps#perl-datetime",
-                "perl-deps#perl-datetime-format-strptime",
-                "perl-deps#perl-params-validate",
-                "perl-deps#perl-html-tagset",
-                "perl-deps#perl-http-message",
-                "perl-deps#perl-http-message",
-                "make-ca",
-                "perl-deps#perl-net-ssleay",
-                "perl-deps#perl-list-someutils",
-                "perl-deps#perl-list-utilsby",
-                "perl-deps#perl-exporter-tiny",
-                "perl-deps#perl-list-moreutils-xs",
-                "perl-modules#perl-io-socket-ssl",
-                "perl-deps#perl-libwww-perl",
-                "make-ca",
-                "perl-deps#perl-text-diff",
-                "perl-deps#perl-config-autoconf",
-                "perl-deps#perl-extutils-libbuilder",
-                "perl-deps#perl-mime-charset",
-                "wget",
-                "perl-deps#perl-xml-libxml",
-                "libxslt",
-                "perl-deps#perl-xml-libxml"
-            ],
-            "recommended": [
-                "perl-deps#perl-test-warnings",
-                "perl-modules#perl-uri",
-                "perl-deps#perl-test-exception",
-                "perl-deps#perl-capture-tiny",
-                "perl-deps#perl-text-csv_xs",
-                "biber",
-                "perl-deps#perl-test-needs"
-            ],
-            "optional": [
-                "perl-deps#perl-test-mockmodule",
-                "perl-deps#perl-xml-sax",
-                "perl-deps#perl-xml-sax-expat"
-            ]
-        }
-    },
-    {
-        "name": "perl-deps",
-        "description": "The modules on the previous page are referenced from other pages in BLFS, but these modules are only in the book as dependencies of those modules. If you use the CPAN install method, you do not need to read this page.",
-        "section": "general",
-        "downloadUrls": [
-            "https://cpan.metacpan.org/authors/id/T/TY/TYEMQ//Algorithm-Diff-1.1903.tar.gz",
-            "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Build-2.00.tar.gz",
-            "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Libxml2-0.12.tar.gz",
-            "https://cpan.metacpan.org/authors/id/E/ET/ETHER/B-Hooks-EndOfScope-0.24.tar.gz",
-            "https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Business-ISBN-Data-20191107.tar.gz",
-            "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Capture-Tiny-0.48.tar.gz",
-            "https://cpan.metacpan.org/authors/id/T/TM/TMTM/Class-Data-Inheritable-0.08.tar.gz",
-            "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Class-Inspector-1.36.tar.gz",
-            "https://cpan.metacpan.org/authors/id/S/SH/SHAY/Class-Singleton-1.5.tar.gz",
-            "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Class-Tiny-1.006.tar.gz",
-            "https://cpan.metacpan.org/authors/id/A/AT/ATOOMIC/Clone-0.43.tar.gz",
-            "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/Config-AutoConf-0.318.tar.gz",
-            "https://cpan.metacpan.org/authors/id/L/LE/LEONT/CPAN-Meta-Check-0.014.tar.gz",
-            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-1.51.tar.gz",
-            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-Format-Strptime-1.76.tar.gz",
-            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-Locale-1.25.tar.gz",
-            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-TimeZone-2.38.tar.gz",
-            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Devel-StackTrace-2.04.tar.gz",
-            "https://cpan.metacpan.org/authors/id/D/DO/DOY/Dist-CheckConflicts-0.11.tar.gz",
-            "https://cpan.metacpan.org/authors/id/G/GA/GAAS/Encode-Locale-1.05.tar.gz",
-            "https://cpan.metacpan.org/authors/id/D/DO/DOY/Eval-Closure-0.14.tar.gz",
-            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Exception-Class-1.44.tar.gz",
-            "https://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-1.002001.tar.gz",
-            "https://cpan.metacpan.org/authors/id/A/AM/AMBS/ExtUtils-LibBuilder-0.08.tar.gz",
-            "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/FFI-CheckLib-0.26.tar.gz",
-            "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/File-chdir-0.1010.tar.gz",
-            "https://cpan.metacpan.org/authors/id/D/DM/DMUEY/File-Copy-Recursive-0.45.tar.gz",
-            "https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/File-Find-Rule-0.34.tar.gz",
-            "https://cpan.metacpan.org/authors/id/G/GA/GAAS/File-Listing-6.04.tar.gz",
-            "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/File-ShareDir-1.116.tar.gz",
-            "https://cpan.metacpan.org/authors/id/E/ET/ETHER/File-ShareDir-Install-0.13.tar.gz",
-            "https://cpan.metacpan.org/authors/id/P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz",
-            "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Cookies-6.08.tar.gz",
-            "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Date-6.05.tar.gz",
-            "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Message-6.18.tar.gz",
-            "https://cpan.metacpan.org/authors/id/G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz",
-            "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Importer-0.025.tar.gz",
-            "https://cpan.metacpan.org/authors/id/C/CJ/CJM/IO-HTML-1.001.tar.gz",
-            "https://cpan.metacpan.org/authors/id/J/JK/JKEENAN/IPC-System-Simple-1.26.tar.gz",
-            "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/libwww-perl-6.43.tar.gz",
-            "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/List-MoreUtils-XS-0.428.tar.gz",
-            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/List-SomeUtils-0.58.tar.gz",
-            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/List-SomeUtils-XS-0.58.tar.gz",
-            "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/List-UtilsBy-0.11.tar.gz",
-            "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/LWP-MediaTypes-6.04.tar.gz",
-            "https://cpan.metacpan.org/authors/id/N/NE/NEZUMI/MIME-Charset-1.012.2.tar.gz",
-            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Module-Implementation-0.09.tar.gz",
-            "https://cpan.metacpan.org/authors/id/S/SI/SIMONW/Module-Pluggable-5.2.tar.gz",
-            "https://cpan.metacpan.org/authors/id/Z/ZE/ZEFRAM/Module-Runtime-0.016.tar.gz",
-            "https://cpan.metacpan.org/authors/id/H/HA/HAARG/MRO-Compat-0.13.tar.gz",
-            "https://cpan.metacpan.org/authors/id/E/ET/ETHER/namespace-autoclean-0.29.tar.gz",
-            "https://cpan.metacpan.org/authors/id/R/RI/RIBASUSHI/namespace-clean-0.27.tar.gz",
-            "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/Net-HTTP-6.19.tar.gz",
-            "https://cpan.metacpan.org/authors/id/C/CH/CHRISN/Net-SSLeay-1.88.tar.gz",
-            "https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/Number-Compare-0.03.tar.gz",
-            "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Package-Stash-0.38.tar.gz",
-            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Params-Validate-1.29.tar.gz",
-            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Params-ValidationCompiler-0.30.tar.gz",
-            "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.112.tar.gz",
-            "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Role-Tiny-2.001004.tar.gz",
-            "https://cpan.metacpan.org/authors/id/C/CH/CHOCOLATE/Scope-Guard-0.21.tar.gz",
-            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Specio-0.43.tar.gz",
-            "https://cpan.metacpan.org/authors/id/F/FR/FREW/Sub-Exporter-Progressive-0.001013.tar.gz",
-            "https://cpan.metacpan.org/authors/id/R/RG/RGARCIA/Sub-Identify-0.14.tar.gz",
-            "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Sub-Info-0.002.tar.gz",
-            "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Sub-Quote-2.006003.tar.gz",
-            "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Sub-Uplevel-0.2800.tar.gz",
-            "https://cpan.metacpan.org/authors/id/C/CH/CHROMATIC/SUPER-1.20190531.tar.gz",
-            "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Term-Table-0.013.tar.gz",
-            "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Deep-1.128.tar.gz",
-            "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test-Exception-0.43.tar.gz",
-            "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Fatal-0.014.tar.gz",
-            "https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Test-File-1.443.tar.gz",
-            "https://cpan.metacpan.org/authors/id/K/KE/KENTNL/Test-File-ShareDir-1.001002.tar.gz",
-            "https://cpan.metacpan.org/authors/id/L/LE/LEEJO/Test-LeakTrace-0.16.tar.gz",
-            "https://cpan.metacpan.org/authors/id/G/GF/GFRANKS/Test-MockModule-v0.170.0.tar.gz",
-            "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Test-Needs-0.002006.tar.gz",
-            "https://cpan.metacpan.org/authors/id/T/TO/TOKUHIROM/Test-Requires-0.10.tar.gz",
-            "https://cpan.metacpan.org/authors/id/M/MA/MALLEN/Test-RequiresInternet-0.05.tar.gz",
-            "https://cpan.metacpan.org/authors/id/M/MA/MARKF/Test-utf8-1.01.tar.gz",
-            "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-Warnings-0.026.tar.gz",
-            "https://cpan.metacpan.org/authors/id/C/CO/CORION/Test-Without-Module-0.20.tar.gz",
-            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Test2-Plugin-NoWarnings-0.07.tar.gz",
-            "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test2-Suite-0.000122.tar.gz",
-            "https://cpan.metacpan.org/authors/id/H/HM/HMBRAND/Text-CSV_XS-1.39.tgz",
-            "https://cpan.metacpan.org/authors/id/N/NE/NEILB/Text-Diff-1.45.tar.gz",
-            "https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/Text-Glob-0.11.tar.gz",
-            "https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Tie-Cycle-1.225.tar.gz",
-            "https://cpan.metacpan.org/authors/id/A/AT/ATOOMIC/TimeDate-2.31.tar.gz",
-            "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Try-Tiny-0.30.tar.gz",
-            "https://cpan.metacpan.org/authors/id/V/VP/VPIT/Variable-Magic-0.62.tar.gz",
-            "https://cpan.metacpan.org/authors/id/G/GA/GAAS/WWW-RobotRules-6.02.tar.gz",
-            "https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/XML-LibXML-2.0201.tar.gz",
-            "https://cpan.metacpan.org/authors/id/P/PE/PERIGRIN/XML-NamespaceSupport-1.12.tar.gz",
-            "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-SAX-1.02.tar.gz",
-            "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-SAX-Base-1.09.tar.gz",
-            "https://cpan.metacpan.org/authors/id/B/BJ/BJOERN/XML-SAX-Expat-0.51.tar.gz"
-        ],
-        "commands": [
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Build.PL &&\n./Build       &&\n./Build test",
-            "as_root ./Build install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "yes '' | perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "yes '' | perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Build.PL &&\n./Build       &&\n./Build test",
-            "as_root ./Build install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Build.PL &&\n./Build       &&\n./Build test",
-            "as_root ./Build install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "PERL_USE_UNSAFE_INC=1 perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "yes | perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
-            "perl Makefile.PL &&\nmake             &&\nmake test",
-            "as_root make install",
             "perl Makefile.PL &&\nmake             &&\nmake test",
             "as_root make install"
         ],
@@ -7075,40 +6585,879 @@
         "tarball": "Algorithm-Diff-1.1903.tar.gz",
         "version": "1.1903",
         "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-alien-build",
+        "description": "Alien::Build provides tools for building external (non-CPAN) dependencies for CPAN.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Build-2.00.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Build-2.00.tar.gz",
+        "tarball": "Alien-Build-2.00.tar.gz",
+        "version": "2.00",
+        "dependencies": {
             "required": [
-                "perl-modules#perl-file-which",
+                "perl-modules#perl-file-which"
+            ],
+            "recommended": [
+                "perl-deps#perl-ffi-checklib",
+                "perl-deps#perl-file-chdir"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-alien-libxml2",
+        "description": "Alien::Libxml2 is designed to allow modules to install the C libxml2 library on your system. In BLFS, it uses pkg-config to find how to link to the installed libxml2-2.9.10.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Libxml2-0.12.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Libxml2-0.12.tar.gz",
+        "tarball": "Alien-Libxml2-0.12.tar.gz",
+        "version": "0.12",
+        "dependencies": {
+            "required": [
                 "perl-deps#perl-alien-build",
-                "libxml2",
+                "libxml2"
+            ],
+            "recommended": [
+                "perl-deps#perl-test2-suite"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-b-hooks-endofscope",
+        "description": "B::Hooks::EndOfScope allows you to execute code when perl finished compiling the surrounding scope.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/E/ET/ETHER/B-Hooks-EndOfScope-0.24.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/B-Hooks-EndOfScope-0.24.tar.gz",
+        "tarball": "B-Hooks-EndOfScope-0.24.tar.gz",
+        "version": "0.24",
+        "dependencies": {
+            "required": [
                 "perl-deps#perl-module-implementation",
                 "perl-deps#perl-sub-exporter-progressive",
-                "perl-deps#perl-variable-magic",
+                "perl-deps#perl-variable-magic"
+            ],
+            "recommended": [
+                "perl-deps#perl-try-tiny"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-business-isbn-data",
+        "description": "Business-ISBN-Data is a data pack for Business::ISBN.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Business-ISBN-Data-20191107.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Business-ISBN-Data-20191107.tar.gz",
+        "tarball": "Business-ISBN-Data-20191107.tar.gz",
+        "version": "20191107",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-capture-tiny",
+        "description": "The Capture::Tiny module captures STDOUT and STDERR from Perl, XS (eXternal Subroutine, i.e. written in C or C++) or external programs.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Capture-Tiny-0.48.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Capture-Tiny-0.48.tar.gz",
+        "tarball": "Capture-Tiny-0.48.tar.gz",
+        "version": "0.48",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-class-data-inheritable",
+        "description": "Class::Data::Inheritable is for creating accessor/mutators to class data. That is, if you want to store something about your class as a whole (instead of about a single object).",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/T/TM/TMTM/Class-Data-Inheritable-0.08.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/T/TM/TMTM/Class-Data-Inheritable-0.08.tar.gz",
+        "tarball": "Class-Data-Inheritable-0.08.tar.gz",
+        "version": "0.08",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-class-inspector",
+        "description": "Class::Inspector allows you to get information about a loaded class.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Class-Inspector-1.36.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Class-Inspector-1.36.tar.gz",
+        "tarball": "Class-Inspector-1.36.tar.gz",
+        "version": "1.36",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-class-singleton",
+        "description": "A Singleton describes an object class that can have only one instance in any system, such as a print spooler. This module implements a Singelton class from which other classes can be derived.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/S/SH/SHAY/Class-Singleton-1.5.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/S/SH/SHAY/Class-Singleton-1.5.tar.gz",
+        "tarball": "Class-Singleton-1.5.tar.gz",
+        "version": "1.5",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-class-tiny",
+        "description": "Class:Tiny offers a minimalist class construction kit.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Class-Tiny-1.006.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Class-Tiny-1.006.tar.gz",
+        "tarball": "Class-Tiny-1.006.tar.gz",
+        "version": "1.006",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-clone",
+        "description": "Clone recursively copies perl datatypes.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/A/AT/ATOOMIC/Clone-0.43.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/A/AT/ATOOMIC/Clone-0.43.tar.gz",
+        "tarball": "Clone-0.43.tar.gz",
+        "version": "0.43",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-config-autoconf",
+        "description": "The Config::AutoConf module implements some of the AutoConf macros (detecting a command, detecting a library, etc.) in pure perl.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/Config-AutoConf-0.318.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/Config-AutoConf-0.318.tar.gz",
+        "tarball": "Config-AutoConf-0.318.tar.gz",
+        "version": "0.318",
+        "dependencies": {
+            "required": [
                 "perl-deps#perl-capture-tiny",
-                "perl-modules#perl-file-slurper",
+                "perl-modules#perl-file-slurper"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-cpan-meta-check",
+        "description": "CPAN::Meta::Check verifies if requirements described in a CPAN::Meta object are present.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/L/LE/LEONT/CPAN-Meta-Check-0.014.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/L/LE/LEONT/CPAN-Meta-Check-0.014.tar.gz",
+        "tarball": "CPAN-Meta-Check-0.014.tar.gz",
+        "version": "0.014",
+        "dependencies": {
+            "required": [],
+            "recommended": [
+                "perl-deps#perl-test-deep"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-datetime",
+        "description": "DateTime is a date and time object for perl.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-1.51.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-1.51.tar.gz",
+        "tarball": "DateTime-1.51.tar.gz",
+        "version": "1.51",
+        "dependencies": {
+            "required": [
                 "perl-deps#perl-datetime-locale",
-                "perl-deps#perl-datetime-timezone",
-                "perl-deps#perl-datetime",
+                "perl-deps#perl-datetime-timezone"
+            ],
+            "recommended": [
+                "perl-deps#perl-cpan-meta-check",
+                "perl-deps#perl-test-fatal",
+                "perl-deps#perl-test-warnings"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-datetime-format-strptime",
+        "description": "DateTime::Format::Strptime implements most of strptime(3), i.e. it takes a string and a pattern and returns a DateTime object.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-Format-Strptime-1.76.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-Format-Strptime-1.76.tar.gz",
+        "tarball": "DateTime-Format-Strptime-1.76.tar.gz",
+        "version": "1.76",
+        "dependencies": {
+            "required": [
+                "perl-deps#perl-datetime"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-datetime-locale",
+        "description": "DateTime::Locale provides localization support for DateTime-1.51.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-Locale-1.25.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-Locale-1.25.tar.gz",
+        "tarball": "DateTime-Locale-1.25.tar.gz",
+        "version": "1.25",
+        "dependencies": {
+            "required": [
                 "perl-deps#perl-dist-checkconflicts",
                 "perl-deps#perl-file-sharedir",
                 "perl-deps#perl-namespace-autoclean",
-                "perl-deps#perl-params-validationcompiler",
+                "perl-deps#perl-params-validationcompiler"
+            ],
+            "recommended": [
+                "perl-deps#perl-cpan-meta-check",
+                "perl-deps#perl-ipc-system-simple",
+                "perl-deps#perl-test-file-sharedir",
+                "perl-deps#perl-test-warnings"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-datetime-timezone",
+        "description": "This class is the base class for all time zone objects. A time zone is represented internally as a set of observances, each of which describes the offset from GMT for a given time period.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-TimeZone-2.38.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-TimeZone-2.38.tar.gz",
+        "tarball": "DateTime-TimeZone-2.38.tar.gz",
+        "version": "2.38",
+        "dependencies": {
+            "required": [
                 "perl-deps#perl-class-singleton",
                 "perl-deps#perl-module-runtime",
-                "perl-deps#perl-params-validationcompiler",
-                "perl-deps#perl-module-runtime",
+                "perl-deps#perl-params-validationcompiler"
+            ],
+            "recommended": [
+                "perl-deps#perl-test-fatal",
+                "perl-deps#perl-test-requires",
+                "perl-deps#perl-datetime"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-devel-stacktrace",
+        "description": "Devel::StackTrace provides an object representing a stacvk trace.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Devel-StackTrace-2.04.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Devel-StackTrace-2.04.tar.gz",
+        "tarball": "Devel-StackTrace-2.04.tar.gz",
+        "version": "2.04",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-dist-checkconflicts",
+        "description": "Dist::CheckConflicts declares version conflicts for a distribution, to support post-install updates of dependant distributions.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/D/DO/DOY/Dist-CheckConflicts-0.11.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/D/DO/DOY/Dist-CheckConflicts-0.11.tar.gz",
+        "tarball": "Dist-CheckConflicts-0.11.tar.gz",
+        "version": "0.11",
+        "dependencies": {
+            "required": [
+                "perl-deps#perl-module-runtime"
+            ],
+            "recommended": [
+                "perl-deps#perl-test-fatal"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-encode-locale",
+        "description": "Encode::Locale determines the locale encoding.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/G/GA/GAAS/Encode-Locale-1.05.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/G/GA/GAAS/Encode-Locale-1.05.tar.gz",
+        "tarball": "Encode-Locale-1.05.tar.gz",
+        "version": "1.05",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-eval-closure",
+        "description": "Eval::Closure safely and cleanly creates closures via string eval.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/D/DO/DOY/Eval-Closure-0.14.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/D/DO/DOY/Eval-Closure-0.14.tar.gz",
+        "tarball": "Eval-Closure-0.14.tar.gz",
+        "version": "0.14",
+        "dependencies": {
+            "required": [],
+            "recommended": [
+                "perl-deps#perl-test-fatal",
+                "perl-deps#perl-test-requires"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-exception-class",
+        "description": "Exception::Class allows you to declare real exception classes in Perl.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Exception-Class-1.44.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Exception-Class-1.44.tar.gz",
+        "tarball": "Exception-Class-1.44.tar.gz",
+        "version": "1.44",
+        "dependencies": {
+            "required": [
                 "perl-deps#perl-class-data-inheritable",
-                "perl-deps#perl-devel-stacktrace",
-                "perl-modules#perl-module-build",
+                "perl-deps#perl-devel-stacktrace"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-exporter-tiny",
+        "description": "Exporter::Tiny is an exporter with the features of Sub::Exporter but only core dependencies.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-1.002001.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-1.002001.tar.gz",
+        "tarball": "Exporter-Tiny-1.002001.tar.gz",
+        "version": "1.002001",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-extutils-libbuilder",
+        "description": "ExtUtils::LibBuilder is a tool to build C libraries.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/A/AM/AMBS/ExtUtils-LibBuilder-0.08.tar.gz"
+        ],
+        "commands": [
+            "perl Build.PL &&\n./Build       &&\n./Build test",
+            "as_root ./Build install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/A/AM/AMBS/ExtUtils-LibBuilder-0.08.tar.gz",
+        "tarball": "ExtUtils-LibBuilder-0.08.tar.gz",
+        "version": "0.08",
+        "dependencies": {
+            "required": [
+                "perl-modules#perl-module-build"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-ffi-checklib",
+        "description": "FFI::CheckLib checks whether a particular dynamic library is available for FFI (Foreign Function Interface) to use.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/FFI-CheckLib-0.26.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/FFI-CheckLib-0.26.tar.gz",
+        "tarball": "FFI-CheckLib-0.26.tar.gz",
+        "version": "0.26",
+        "dependencies": {
+            "required": [],
+            "recommended": [
+                "perl-deps#perl-capture-tiny",
+                "perl-deps#perl-path-tiny",
+                "perl-deps#perl-test2-suite"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-file-chdir",
+        "description": "File::chdir provides a more sensible way to change directories.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/File-chdir-0.1010.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/File-chdir-0.1010.tar.gz",
+        "tarball": "File-chdir-0.1010.tar.gz",
+        "version": "0.1010",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-file-copy-recursive",
+        "description": "This module copies and moves directories recursively (or single files), to an optional depth and attempts to preserve each file or directory's mode.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/D/DM/DMUEY/File-Copy-Recursive-0.45.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/D/DM/DMUEY/File-Copy-Recursive-0.45.tar.gz",
+        "tarball": "File-Copy-Recursive-0.45.tar.gz",
+        "version": "0.45",
+        "dependencies": {
+            "required": [],
+            "recommended": [
+                "perl-deps#perl-path-tiny",
+                "perl-deps#perl-test-deep",
+                "perl-deps#perl-test-fatal",
+                "perl-deps#perl-test-file",
+                "perl-deps#perl-test-warnings"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-file-find-rule",
+        "description": "File::Find::Rule is a friendlier interface to File::Find. It allows you to build rules which specify the desired files and directories.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/File-Find-Rule-0.34.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/File-Find-Rule-0.34.tar.gz",
+        "tarball": "File-Find-Rule-0.34.tar.gz",
+        "version": "0.34",
+        "dependencies": {
+            "required": [
                 "perl-deps#perl-number-compare",
-                "perl-deps#perl-text-glob",
-                "perl-deps#perl-http-date",
+                "perl-deps#perl-text-glob"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-file-listing",
+        "description": "File::Listing parses a directory listing.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/G/GA/GAAS/File-Listing-6.04.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/G/GA/GAAS/File-Listing-6.04.tar.gz",
+        "tarball": "File-Listing-6.04.tar.gz",
+        "version": "6.04",
+        "dependencies": {
+            "required": [
+                "perl-deps#perl-http-date"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-file-sharedir",
+        "description": "File::ShareDir allows you to access data files which have been installed by File::ShareDir::Install.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/File-ShareDir-1.116.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/File-ShareDir-1.116.tar.gz",
+        "tarball": "File-ShareDir-1.116.tar.gz",
+        "version": "1.116",
+        "dependencies": {
+            "required": [
                 "perl-deps#perl-class-inspector",
-                "perl-deps#perl-file-sharedir-install",
-                "perl-deps#perl-http-message",
+                "perl-deps#perl-file-sharedir-install"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-file-sharedir-install",
+        "description": "File::ShareDir::Install allows you to install read-only data files from a distribution.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/E/ET/ETHER/File-ShareDir-Install-0.13.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/File-ShareDir-Install-0.13.tar.gz",
+        "tarball": "File-ShareDir-Install-0.13.tar.gz",
+        "version": "0.13",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-html-tagset",
+        "description": "HTML::Tagset provides several data tables useful in parsing HTML.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz",
+        "tarball": "HTML-Tagset-3.20.tar.gz",
+        "version": "3.20",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-http-cookies",
+        "description": "HTTP::Cookies provides a class for objects that represent a \"cookie jar\" -- that is, a database of all the HTTP cookies that a given LWP::UserAgent (from libwww-perl-6.43) object knows about.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Cookies-6.08.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Cookies-6.08.tar.gz",
+        "tarball": "HTTP-Cookies-6.08.tar.gz",
+        "version": "6.08",
+        "dependencies": {
+            "required": [
+                "perl-deps#perl-http-message"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-http-date",
+        "description": "HTTP::Date provides functions to deal with the date formats used by the HTTP protocol and also with some other date formats.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Date-6.05.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Date-6.05.tar.gz",
+        "tarball": "HTTP-Date-6.05.tar.gz",
+        "version": "6.05",
+        "dependencies": {
+            "required": [],
+            "recommended": [
+                "perl-deps#perl-timedate"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-http-message",
+        "description": "HTTP::Message provides a base class for HTTP style message objects.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Message-6.18.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Message-6.18.tar.gz",
+        "tarball": "HTTP-Message-6.18.tar.gz",
+        "version": "6.18",
+        "dependencies": {
+            "required": [
                 "perl-deps#perl-encode-locale",
                 "perl-deps#perl-http-date",
                 "perl-deps#perl-io-html",
                 "perl-deps#perl-lwp-mediatypes",
-                "perl-modules#perl-uri",
+                "perl-modules#perl-uri"
+            ],
+            "recommended": [
+                "perl-deps#perl-try-tiny"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-http-negotiate",
+        "description": "HTTP::Negotiate provides a complete implementation of the HTTP content negotiation algorithm.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz",
+        "tarball": "HTTP-Negotiate-6.01.tar.gz",
+        "version": "6.01",
+        "dependencies": {
+            "required": [],
+            "recommended": [
+                "perl-deps#perl-http-message"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-importer",
+        "description": "Importer provides an alternative but compatible interface to modules that export symbols.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Importer-0.025.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Importer-0.025.tar.gz",
+        "tarball": "Importer-0.025.tar.gz",
+        "version": "0.025",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-io-html",
+        "description": "IO::HTML opens an HTML file with automatic character set detection.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/C/CJ/CJM/IO-HTML-1.001.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/C/CJ/CJM/IO-HTML-1.001.tar.gz",
+        "tarball": "IO-HTML-1.001.tar.gz",
+        "version": "1.001",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-ipc-system-simple",
+        "description": "IPC::System::Simple takes the hard work out of calling external commands and producing detailed diagnostics.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/J/JK/JKEENAN/IPC-System-Simple-1.26.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/J/JK/JKEENAN/IPC-System-Simple-1.26.tar.gz",
+        "tarball": "IPC-System-Simple-1.26.tar.gz",
+        "version": "1.26",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-libwww-perl",
+        "description": "The libwww-perl collection is a set of Perl modules which provides a simple and consistent application programming interface (API) to the World-Wide Web. The main focus of the library is to provide classes and functions that allow you to write WWW clients. The library also contains modules that are of more general use and even classes that help you implement simple HTTP servers.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/libwww-perl-6.43.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/libwww-perl-6.43.tar.gz",
+        "tarball": "libwww-perl-6.43.tar.gz",
+        "version": "6.43",
+        "dependencies": {
+            "required": [
                 "perl-deps#perl-file-listing",
                 "perl-deps#perl-http-cookies",
                 "perl-modules#perl-http-daemon",
@@ -7116,116 +7465,1265 @@
                 "perl-modules#perl-html-parser",
                 "perl-deps#perl-net-http",
                 "perl-deps#perl-try-tiny",
-                "perl-deps#perl-www-robotrules",
+                "perl-deps#perl-www-robotrules"
+            ],
+            "recommended": [
+                "perl-deps#perl-test-fatal",
+                "perl-deps#perl-test-needs",
+                "perl-deps#perl-test-requiresinternet"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-list-moreutils-xs",
+        "description": "List::MoreUtils::XS is a compiled backend for List::MoreUtils",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/List-MoreUtils-XS-0.428.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/List-MoreUtils-XS-0.428.tar.gz",
+        "tarball": "List-MoreUtils-XS-0.428.tar.gz",
+        "version": "0.428",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-list-someutils",
+        "description": "List::SomeUtils provides the stuff misisng in List::Util.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/List-SomeUtils-0.58.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/List-SomeUtils-0.58.tar.gz",
+        "tarball": "List-SomeUtils-0.58.tar.gz",
+        "version": "0.58",
+        "dependencies": {
+            "required": [
                 "perl-deps#perl-module-implementation",
-                "perl-deps#perl-list-someutils-xs",
+                "perl-deps#perl-list-someutils-xs"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-list-someutils-xs",
+        "description": "List::SomeUtils::XS is a (faster) XS (eXternal Subroutine) implementation for List::SomeUtils.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/List-SomeUtils-XS-0.58.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/List-SomeUtils-XS-0.58.tar.gz",
+        "tarball": "List-SomeUtils-XS-0.58.tar.gz",
+        "version": "0.58",
+        "dependencies": {
+            "required": [],
+            "recommended": [
+                "perl-deps#perl-test-leaktrace",
+                "perl-deps#perl-test-warnings"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-list-utilsby",
+        "description": "List::UtilsBy provides a number of higher-order list utility functions.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/List-UtilsBy-0.11.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/List-UtilsBy-0.11.tar.gz",
+        "tarball": "List-UtilsBy-0.11.tar.gz",
+        "version": "0.11",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-lwp-mediatypes",
+        "description": "LWP::MediaTypes guesses the media type (i.e. the MIME Type) for a file or URL.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/LWP-MediaTypes-6.04.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/LWP-MediaTypes-6.04.tar.gz",
+        "tarball": "LWP-MediaTypes-6.04.tar.gz",
+        "version": "6.04",
+        "dependencies": {
+            "required": [],
+            "recommended": [
+                "perl-deps#perl-test-fatal"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-mime-charset",
+        "description": "MIME::Charset provides information about character sets used for MIME messages o nthe internet, such as their encodings.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/N/NE/NEZUMI/MIME-Charset-1.012.2.tar.gz"
+        ],
+        "commands": [
+            "yes '' | perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/N/NE/NEZUMI/MIME-Charset-1.012.2.tar.gz",
+        "tarball": "MIME-Charset-1.012.2.tar.gz",
+        "version": "1.012.2",
+        "dependencies": {
+            "required": [],
+            "recommended": [
+                "perl-modules#perl-encode-eucjpascii",
+                "perl-modules#perl-encode-hanextra",
+                "perl-modules#perl-encode-jis2k",
+                "biber"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-module-implementation",
+        "description": "Module::Implementation loads one of several alternate underlying implementations of a module (e.g. eXternal Subroutine or pure Perl, or an implementation for a given OS).",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Module-Implementation-0.09.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Module-Implementation-0.09.tar.gz",
+        "tarball": "Module-Implementation-0.09.tar.gz",
+        "version": "0.09",
+        "dependencies": {
+            "required": [
                 "perl-deps#perl-module-runtime",
-                "perl-deps#perl-try-tiny",
+                "perl-deps#perl-try-tiny"
+            ],
+            "recommended": [
+                "perl-deps#perl-test-fatal",
+                "perl-deps#perl-test-requires"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-module-pluggable",
+        "description": "Module::Pluggable provides a way of having 'plugins' for your module.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/S/SI/SIMONW/Module-Pluggable-5.2.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/S/SI/SIMONW/Module-Pluggable-5.2.tar.gz",
+        "tarball": "Module-Pluggable-5.2.tar.gz",
+        "version": "5.2",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-module-runtime",
+        "description": "Module::Runtime provides functions to deal with runtime handling of Perl modules.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/Z/ZE/ZEFRAM/Module-Runtime-0.016.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/Z/ZE/ZEFRAM/Module-Runtime-0.016.tar.gz",
+        "tarball": "Module-Runtime-0.016.tar.gz",
+        "version": "0.016",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-mro-compat",
+        "description": "The \"mro\" namespace provides several utilities for dealing with method resolution order and method caching in general in Perl 5.9.5 and higher. This module provides those interfaces for earlier versions of Perl.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/H/HA/HAARG/MRO-Compat-0.13.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/MRO-Compat-0.13.tar.gz",
+        "tarball": "MRO-Compat-0.13.tar.gz",
+        "version": "0.13",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-namespace-autoclean",
+        "description": "This module is very similar to namespace::clean, except it will clean all imported functions, no matter if you imported them before or after you used the pragma. It will also not touch anything that looks like a method.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/E/ET/ETHER/namespace-autoclean-0.29.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/namespace-autoclean-0.29.tar.gz",
+        "tarball": "namespace-autoclean-0.29.tar.gz",
+        "version": "0.29",
+        "dependencies": {
+            "required": [
                 "perl-deps#perl-namespace-clean",
-                "perl-deps#perl-sub-identify",
+                "perl-deps#perl-sub-identify"
+            ],
+            "recommended": [
+                "perl-deps#perl-test-needs"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-namespace-clean",
+        "description": "This package allows you to keep imports and functions out of your namespace.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/R/RI/RIBASUSHI/namespace-clean-0.27.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/R/RI/RIBASUSHI/namespace-clean-0.27.tar.gz",
+        "tarball": "namespace-clean-0.27.tar.gz",
+        "version": "0.27",
+        "dependencies": {
+            "required": [
                 "perl-deps#perl-b-hooks-endofscope",
-                "perl-deps#perl-package-stash",
-                "perl-modules#perl-uri",
+                "perl-deps#perl-package-stash"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-net-http",
+        "description": "The Net::HTTP class is a low level HTTP client. An instance of the class represents a connection to an HTTP server.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/Net-HTTP-6.19.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/Net-HTTP-6.19.tar.gz",
+        "tarball": "Net-HTTP-6.19.tar.gz",
+        "version": "6.19",
+        "dependencies": {
+            "required": [
+                "perl-modules#perl-uri"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-net-ssleay",
+        "description": "Net::SSLeay is a PERL extension for using OpenSSL.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/C/CH/CHRISN/Net-SSLeay-1.88.tar.gz"
+        ],
+        "commands": [
+            "yes '' | perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/C/CH/CHRISN/Net-SSLeay-1.88.tar.gz",
+        "tarball": "Net-SSLeay-1.88.tar.gz",
+        "version": "1.88",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-number-compare",
+        "description": "Number::Compare compiles a simple comparison to an anonymous subroutine, which you can call with a value to be tested against. It understands IEC standard magnitudes (k, ki, m, mi, g, gi).",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/Number-Compare-0.03.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/Number-Compare-0.03.tar.gz",
+        "tarball": "Number-Compare-0.03.tar.gz",
+        "version": "0.03",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-package-stash",
+        "description": "Manipulating stashes (Perl's symbol tables) is occasionally necessary, but incredibly messy, and easy to get wrong. This module hides all of that behind a simple API.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Package-Stash-0.38.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Package-Stash-0.38.tar.gz",
+        "tarball": "Package-Stash-0.38.tar.gz",
+        "version": "0.38",
+        "dependencies": {
+            "required": [
                 "perl-deps#perl-dist-checkconflicts",
-                "perl-deps#perl-module-implementation",
+                "perl-deps#perl-module-implementation"
+            ],
+            "recommended": [
+                "perl-deps#perl-test-fatal",
+                "perl-deps#perl-test-requires"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-params-validate",
+        "description": "Params::Validate allows you to validate method or function call parameters to an arbitrary level of specificity.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Params-Validate-1.29.tar.gz"
+        ],
+        "commands": [
+            "perl Build.PL &&\n./Build       &&\n./Build test",
+            "as_root ./Build install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Params-Validate-1.29.tar.gz",
+        "tarball": "Params-Validate-1.29.tar.gz",
+        "version": "1.29",
+        "dependencies": {
+            "required": [
                 "perl-modules#perl-module-build",
-                "perl-deps#perl-module-implementation",
+                "perl-deps#perl-module-implementation"
+            ],
+            "recommended": [
+                "perl-deps#perl-test-fatal",
+                "perl-deps#perl-test-requires"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-params-validationcompiler",
+        "description": "Params::ValidationCompiler builds an optimized subroutine parameter validator.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Params-ValidationCompiler-0.30.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Params-ValidationCompiler-0.30.tar.gz",
+        "tarball": "Params-ValidationCompiler-0.30.tar.gz",
+        "version": "0.30",
+        "dependencies": {
+            "required": [
                 "perl-deps#perl-exception-class",
-                "perl-deps#perl-specio",
+                "perl-deps#perl-specio"
+            ],
+            "recommended": [
+                "perl-deps#perl-test-without-module",
+                "perl-deps#perl-test2-plugin-nowarnings"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-path-tiny",
+        "description": "Path::Tiny provides a small fast utility for working with file paths.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.112.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.112.tar.gz",
+        "tarball": "Path-Tiny-0.112.tar.gz",
+        "version": "0.112",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-role-tiny",
+        "description": "Role::Tiny is a minimalist role composition tool.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Role-Tiny-2.001004.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Role-Tiny-2.001004.tar.gz",
+        "tarball": "Role-Tiny-2.001004.tar.gz",
+        "version": "2.001004",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-scope-guard",
+        "description": "Scope::Guard provides a convenient way to perform cleanup or other forms of resource management at the end of a scope.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/C/CH/CHOCOLATE/Scope-Guard-0.21.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/C/CH/CHOCOLATE/Scope-Guard-0.21.tar.gz",
+        "tarball": "Scope-Guard-0.21.tar.gz",
+        "version": "0.21",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-specio",
+        "description": "Specio provides classes for representing type constraints and coercion, along with syntax sugar for declaring them.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Specio-0.43.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Specio-0.43.tar.gz",
+        "tarball": "Specio-0.43.tar.gz",
+        "version": "0.43",
+        "dependencies": {
+            "required": [
                 "perl-deps#perl-devel-stacktrace",
                 "perl-deps#perl-eval-closure",
                 "perl-deps#perl-module-runtime",
                 "perl-deps#perl-role-tiny",
                 "perl-deps#perl-sub-quote",
-                "perl-deps#perl-try-tiny",
-                "perl-deps#perl-importer",
-                "perl-deps#perl-importer",
-                "perl-deps#perl-sub-uplevel",
-                "perl-deps#perl-try-tiny",
+                "perl-deps#perl-try-tiny"
+            ],
+            "recommended": [
+                "perl-deps#perl-mro-compat",
+                "perl-deps#perl-test-fatal",
+                "perl-deps#perl-test-needs"
+            ],
+            "optional": [
+                "perl-deps#perl-namespace-autoclean"
+            ]
+        }
+    },
+    {
+        "name": "perl-deps#perl-sub-exporter-progressive",
+        "description": "Sub::Exporter::Progressive is a wrapper for Sub::Exporter.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/F/FR/FREW/Sub-Exporter-Progressive-0.001013.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/F/FR/FREW/Sub-Exporter-Progressive-0.001013.tar.gz",
+        "tarball": "Sub-Exporter-Progressive-0.001013.tar.gz",
+        "version": "0.001013",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-sub-identify",
+        "description": "Sub::Identify allows you to retrieve the real name of code references. It is encouraged to migrate to Sub::Util (a core module) when possible.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/R/RG/RGARCIA/Sub-Identify-0.14.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/R/RG/RGARCIA/Sub-Identify-0.14.tar.gz",
+        "tarball": "Sub-Identify-0.14.tar.gz",
+        "version": "0.14",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-sub-info",
+        "description": "Sub::Info is a tool for inspecting subroutines.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Sub-Info-0.002.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Sub-Info-0.002.tar.gz",
+        "tarball": "Sub-Info-0.002.tar.gz",
+        "version": "0.002",
+        "dependencies": {
+            "required": [
+                "perl-deps#perl-importer"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-sub-quote",
+        "description": "Sub::Quote provides ways to generate subroutines from strings.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Sub-Quote-2.006003.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Sub-Quote-2.006003.tar.gz",
+        "tarball": "Sub-Quote-2.006003.tar.gz",
+        "version": "2.006003",
+        "dependencies": {
+            "required": [],
+            "recommended": [
+                "perl-deps#perl-test-fatal"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-sub-uplevel",
+        "description": "Sub::Uplevel allows you to fool a caller that it is running in a higher stack frame.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Sub-Uplevel-0.2800.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Sub-Uplevel-0.2800.tar.gz",
+        "tarball": "Sub-Uplevel-0.2800.tar.gz",
+        "version": "0.2800",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-super",
+        "description": "SUPER provides easier methods to dispatch control to the superclass (when subclassing a class).",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/C/CH/CHROMATIC/SUPER-1.20190531.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/C/CH/CHROMATIC/SUPER-1.20190531.tar.gz",
+        "tarball": "SUPER-1.20190531.tar.gz",
+        "version": "1.20190531",
+        "dependencies": {
+            "required": [],
+            "recommended": [
+                "perl-deps#perl-sub-identify"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-term-table",
+        "description": "Term::Table formats a header and rows into a table. This is used by some failing tests to provide diagnostics about what has goen wrong.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Term-Table-0.013.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Term-Table-0.013.tar.gz",
+        "tarball": "Term-Table-0.013.tar.gz",
+        "version": "0.013",
+        "dependencies": {
+            "required": [
+                "perl-deps#perl-importer"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-test-deep",
+        "description": "Test::Deep gives you very flexible ways to check that the result you got is the result you were expecting.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Deep-1.128.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Deep-1.128.tar.gz",
+        "tarball": "Test-Deep-1.128.tar.gz",
+        "version": "1.128",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-test-exception",
+        "description": "Test::Exception provides convenience methods for testing exception based code.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test-Exception-0.43.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test-Exception-0.43.tar.gz",
+        "tarball": "Test-Exception-0.43.tar.gz",
+        "version": "0.43",
+        "dependencies": {
+            "required": [
+                "perl-deps#perl-sub-uplevel"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-test-fatal",
+        "description": "The Test::Fatal module provides simple helpers for testing code which throws exceptions.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Fatal-0.014.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Fatal-0.014.tar.gz",
+        "tarball": "Test-Fatal-0.014.tar.gz",
+        "version": "0.014",
+        "dependencies": {
+            "required": [
+                "perl-deps#perl-try-tiny"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-test-file",
+        "description": "Test::File provides a collection of test utilities for file attributes.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Test-File-1.443.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Test-File-1.443.tar.gz",
+        "tarball": "Test-File-1.443.tar.gz",
+        "version": "1.443",
+        "dependencies": {
+            "required": [],
+            "recommended": [
+                "perl-deps#perl-test-utf8"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-test-file-sharedir",
+        "description": "Test::File::ShareDir is some low level plumbing to enable a distribution to perform tests while consuming its own share directories in a manner similar to how they will be once installed. This allows File-ShareDir-1.116 to see the latest version of content instead of whatever is installed on the target system where you are testing.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/K/KE/KENTNL/Test-File-ShareDir-1.001002.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/K/KE/KENTNL/Test-File-ShareDir-1.001002.tar.gz",
+        "tarball": "Test-File-ShareDir-1.001002.tar.gz",
+        "version": "1.001002",
+        "dependencies": {
+            "required": [
                 "perl-deps#perl-class-tiny",
                 "perl-deps#perl-file-copy-recursive",
                 "perl-deps#perl-file-sharedir",
                 "perl-deps#perl-path-tiny",
-                "perl-deps#perl-scope-guard",
+                "perl-deps#perl-scope-guard"
+            ],
+            "recommended": [
+                "perl-deps#perl-test-fatal"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-test-leaktrace",
+        "description": "Test::LeakTrace traces memory leaks.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/L/LE/LEEJO/Test-LeakTrace-0.16.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/L/LE/LEEJO/Test-LeakTrace-0.16.tar.gz",
+        "tarball": "Test-LeakTrace-0.16.tar.gz",
+        "version": "0.16",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-test-mockmodule",
+        "description": "Test::MockModule lets you temporarily redefine subroutines in other packages for the purposes of unit testing.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/G/GF/GFRANKS/Test-MockModule-v0.170.0.tar.gz"
+        ],
+        "commands": [
+            "perl Build.PL &&\n./Build       &&\n./Build test",
+            "as_root ./Build install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/G/GF/GFRANKS/Test-MockModule-v0.170.0.tar.gz",
+        "tarball": "Test-MockModule-v0.170.0.tar.gz",
+        "version": "v0.170.0",
+        "dependencies": {
+            "required": [
                 "perl-modules#perl-module-build",
-                "perl-deps#perl-super",
-                "perl-deps#perl-test2-suite",
+                "perl-deps#perl-super"
+            ],
+            "recommended": [
+                "perl-deps#perl-test-warnings"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-test-needs",
+        "description": "Test::Needs skips tests if a requested module is not present.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Test-Needs-0.002006.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Test-Needs-0.002006.tar.gz",
+        "tarball": "Test-Needs-0.002006.tar.gz",
+        "version": "0.002006",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-test-requires",
+        "description": "The Test::Requires module checks if another (optional) module can be loaded, and if not it skips all the current tests.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/T/TO/TOKUHIROM/Test-Requires-0.10.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/T/TO/TOKUHIROM/Test-Requires-0.10.tar.gz",
+        "tarball": "Test-Requires-0.10.tar.gz",
+        "version": "0.10",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-test-requiresinternet",
+        "description": "Test::RequiresInternet is intended to easily test network connectivity before functional tests begin to non-local Internet resources.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/M/MA/MALLEN/Test-RequiresInternet-0.05.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/M/MA/MALLEN/Test-RequiresInternet-0.05.tar.gz",
+        "tarball": "Test-RequiresInternet-0.05.tar.gz",
+        "version": "0.05",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-test-utf8",
+        "description": "Test::utf8 is a collection of tests useful for dealing with utf8 strings in Perl.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/M/MA/MARKF/Test-utf8-1.01.tar.gz"
+        ],
+        "commands": [
+            "PERL_USE_UNSAFE_INC=1 perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/M/MA/MARKF/Test-utf8-1.01.tar.gz",
+        "tarball": "Test-utf8-1.01.tar.gz",
+        "version": "1.01",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-test-warnings",
+        "description": "Test::Warnings tests for warnings and the lack of them.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-Warnings-0.026.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-Warnings-0.026.tar.gz",
+        "tarball": "Test-Warnings-0.026.tar.gz",
+        "version": "0.026",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-test-without-module",
+        "description": "This module allows you to deliberately hide modules from a program even though they are installed. This is mostly useful for testing modules that have a fallback when a certain dependency module is not installed.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/C/CO/CORION/Test-Without-Module-0.20.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/C/CO/CORION/Test-Without-Module-0.20.tar.gz",
+        "tarball": "Test-Without-Module-0.20.tar.gz",
+        "version": "0.20",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-test2-plugin-nowarnings",
+        "description": "Test2::Plugin::NoWarnings causes tests to fail if there are any warnings while they run.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Test2-Plugin-NoWarnings-0.07.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Test2-Plugin-NoWarnings-0.07.tar.gz",
+        "tarball": "Test2-Plugin-NoWarnings-0.07.tar.gz",
+        "version": "0.07",
+        "dependencies": {
+            "required": [
+                "perl-deps#perl-test2-suite"
+            ],
+            "recommended": [
+                "perl-modules#perl-ipc-run3"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-test2-suite",
+        "description": "Test2::Suite is a distribution with a rich set of tools built upon the Test2 framework.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test2-Suite-0.000122.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test2-Suite-0.000122.tar.gz",
+        "tarball": "Test2-Suite-0.000122.tar.gz",
+        "version": "0.000122",
+        "dependencies": {
+            "required": [
                 "perl-deps#perl-module-pluggable",
                 "perl-deps#perl-scope-guard",
                 "perl-deps#perl-sub-info",
-                "perl-deps#perl-term-table",
-                "perl-deps#perl-algorithm-diff",
-                "perl-deps#perl-libwww-perl",
-                "perl-deps#perl-alien-libxml2",
-                "perl-deps#perl-xml-sax",
-                "libxml2",
-                "perl-deps#perl-xml-namespacesupport",
-                "perl-deps#perl-xml-sax-base",
-                "perl-deps#perl-xml-sax"
+                "perl-deps#perl-term-table"
             ],
-            "recommended": [
-                "perl-deps#perl-ffi-checklib",
-                "perl-deps#perl-file-chdir",
-                "perl-deps#perl-test2-suite",
-                "perl-deps#perl-try-tiny",
-                "perl-deps#perl-test-deep",
-                "perl-deps#perl-cpan-meta-check",
-                "perl-deps#perl-test-fatal",
-                "perl-deps#perl-test-warnings",
-                "perl-deps#perl-cpan-meta-check",
-                "perl-deps#perl-ipc-system-simple",
-                "perl-deps#perl-test-file-sharedir",
-                "perl-deps#perl-test-warnings",
-                "perl-deps#perl-test-fatal",
-                "perl-deps#perl-test-requires",
-                "perl-deps#perl-datetime",
-                "perl-deps#perl-test-fatal",
-                "perl-deps#perl-test-fatal",
-                "perl-deps#perl-test-requires",
-                "perl-deps#perl-capture-tiny",
-                "perl-deps#perl-path-tiny",
-                "perl-deps#perl-test2-suite",
-                "perl-deps#perl-path-tiny",
-                "perl-deps#perl-test-deep",
-                "perl-deps#perl-test-fatal",
-                "perl-deps#perl-test-file",
-                "perl-deps#perl-test-warnings",
-                "perl-deps#perl-timedate",
-                "perl-deps#perl-try-tiny",
-                "perl-deps#perl-http-message",
-                "perl-deps#perl-test-fatal",
-                "perl-deps#perl-test-needs",
-                "perl-deps#perl-test-requiresinternet",
-                "perl-deps#perl-test-leaktrace",
-                "perl-deps#perl-test-warnings",
-                "perl-deps#perl-test-fatal",
-                "perl-modules#perl-encode-eucjpascii",
-                "perl-modules#perl-encode-hanextra",
-                "perl-modules#perl-encode-jis2k",
-                "biber",
-                "perl-deps#perl-test-fatal",
-                "perl-deps#perl-test-requires",
-                "perl-deps#perl-test-needs",
-                "perl-deps#perl-test-fatal",
-                "perl-deps#perl-test-requires",
-                "perl-deps#perl-test-fatal",
-                "perl-deps#perl-test-requires",
-                "perl-deps#perl-test-without-module",
-                "perl-deps#perl-test2-plugin-nowarnings",
-                "perl-deps#perl-mro-compat",
-                "perl-deps#perl-test-fatal",
-                "perl-deps#perl-test-needs",
-                "perl-deps#perl-test-fatal",
-                "perl-deps#perl-sub-identify",
-                "perl-deps#perl-test-utf8",
-                "perl-deps#perl-test-fatal",
-                "perl-deps#perl-test-warnings",
-                "perl-modules#perl-ipc-run3"
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-text-csv_xs",
+        "description": "Text::CSV_XS provides facilities for the composition and decomposition of comma-separated values.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/H/HM/HMBRAND/Text-CSV_XS-1.39.tgz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/H/HM/HMBRAND/Text-CSV_XS-1.39.tgz",
+        "tarball": "Text-CSV_XS-1.39.tgz",
+        "version": "Text-CSV_XS-1.39.tgz",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-text-diff",
+        "description": "Text::Diff performs diffs on files and record sets.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/N/NE/NEILB/Text-Diff-1.45.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/N/NE/NEILB/Text-Diff-1.45.tar.gz",
+        "tarball": "Text-Diff-1.45.tar.gz",
+        "version": "1.45",
+        "dependencies": {
+            "required": [
+                "perl-deps#perl-algorithm-diff"
             ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-text-glob",
+        "description": "Text::Glob implements glob(3) style matching that can be used to match against text, rather than fetching names from a filesystem.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/Text-Glob-0.11.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/Text-Glob-0.11.tar.gz",
+        "tarball": "Text-Glob-0.11.tar.gz",
+        "version": "0.11",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-tie-cycle",
+        "description": "You use Tie::Cycle to go through a list over and over again. Once you get to the end of the list, you go back to the beginning. You don't have to worry about any of this since the magic of tie does that for you.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Tie-Cycle-1.225.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Tie-Cycle-1.225.tar.gz",
+        "tarball": "Tie-Cycle-1.225.tar.gz",
+        "version": "1.225",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-timedate",
+        "description": "TimeDate provides miscellaneous timezone manipulation routines.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/A/AT/ATOOMIC/TimeDate-2.31.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/A/AT/ATOOMIC/TimeDate-2.31.tar.gz",
+        "tarball": "TimeDate-2.31.tar.gz",
+        "version": "2.31",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-try-tiny",
+        "description": "Try::Tiny provides try and catch to expect and handle exceptional conditions, avoiding quirks in Perl and common mistakes.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Try-Tiny-0.30.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Try-Tiny-0.30.tar.gz",
+        "tarball": "Try-Tiny-0.30.tar.gz",
+        "version": "0.30",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
             "optional": [
-                "perl-deps#perl-namespace-autoclean",
                 "perl-deps#perl-capture-tiny"
             ]
+        }
+    },
+    {
+        "name": "perl-deps#perl-variable-magic",
+        "description": "Magic is Perl's way of enhancing variables. With this module, you can add your own magic to any variable.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/V/VP/VPIT/Variable-Magic-0.62.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/V/VP/VPIT/Variable-Magic-0.62.tar.gz",
+        "tarball": "Variable-Magic-0.62.tar.gz",
+        "version": "0.62",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-www-robotrules",
+        "description": "WWW::RobotRules parses robots.txt files, creating a WWW::RobotRules object with methods to check if access to a given URL is prohibited.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/G/GA/GAAS/WWW-RobotRules-6.02.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/G/GA/GAAS/WWW-RobotRules-6.02.tar.gz",
+        "tarball": "WWW-RobotRules-6.02.tar.gz",
+        "version": "6.02",
+        "dependencies": {
+            "required": [
+                "perl-deps#perl-libwww-perl"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-xml-libxml",
+        "description": "XML::LibXML is a perl binding for libxml2-2.9.10.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/XML-LibXML-2.0201.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/XML-LibXML-2.0201.tar.gz",
+        "tarball": "XML-LibXML-2.0201.tar.gz",
+        "version": "2.0201",
+        "dependencies": {
+            "required": [
+                "perl-deps#perl-alien-libxml2",
+                "perl-deps#perl-xml-sax"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-xml-namespacesupport",
+        "description": "XML::NamespaceSupport offers a simple way to process namespaced XML names from within any application that may need them.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/P/PE/PERIGRIN/XML-NamespaceSupport-1.12.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/P/PE/PERIGRIN/XML-NamespaceSupport-1.12.tar.gz",
+        "tarball": "XML-NamespaceSupport-1.12.tar.gz",
+        "version": "1.12",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-xml-sax",
+        "description": "XML::SAX is a SAX parser access API for Perl. It includes classes and APIs required for implementing SAX drivers, along with a factory class for returning any SAX parser installed on the user's system.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-SAX-1.02.tar.gz"
+        ],
+        "commands": [
+            "yes | perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-SAX-1.02.tar.gz",
+        "tarball": "XML-SAX-1.02.tar.gz",
+        "version": "1.02",
+        "dependencies": {
+            "required": [
+                "libxml2",
+                "perl-deps#perl-xml-namespacesupport",
+                "perl-deps#perl-xml-sax-base"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-xml-sax-base",
+        "description": "This module has a very simple task - to be a base class for PerlSAX drivers and filters.",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-SAX-Base-1.09.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-SAX-Base-1.09.tar.gz",
+        "tarball": "XML-SAX-Base-1.09.tar.gz",
+        "version": "1.09",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "perl-deps#perl-xml-sax-expat",
+        "description": "XML::SAX::Expat is an implementation of a SAX2 driver sitting on top of Expat (XML::Parser).",
+        "section": "Perl Dep",
+        "downloadUrls": [
+            "https://cpan.metacpan.org/authors/id/B/BJ/BJOERN/XML-SAX-Expat-0.51.tar.gz"
+        ],
+        "commands": [
+            "perl Makefile.PL &&\nmake             &&\nmake test",
+            "as_root make install"
+        ],
+        "url": "https://cpan.metacpan.org/authors/id/B/BJ/BJOERN/XML-SAX-Expat-0.51.tar.gz",
+        "tarball": "XML-SAX-Expat-0.51.tar.gz",
+        "version": "0.51",
+        "dependencies": {
+            "required": [
+                "perl-deps#perl-xml-sax"
+            ],
+            "recommended": [],
+            "optional": []
         }
     },
     {
@@ -7346,80 +8844,17 @@
         }
     },
     {
-        "name": "python-modules",
-        "description": "The Python module packages add useful objects to the Python language. Modules utilized by packages throughout BLFS are listed here, along with their dependencies.",
-        "section": "general",
+        "name": "python-modules#dbus-python",
+        "description": "D-Bus Python provides Python bindings to the D-Bus API interface.",
+        "section": "Python Module",
         "downloadUrls": [
-            "https://dbus.freedesktop.org/releases/dbus-python/dbus-python-1.2.16.tar.gz",
-            "https://files.pythonhosted.org/packages/source/d/decorator/decorator-4.4.2.tar.gz",
-            "http://downloads.sourceforge.net/docutils/docutils-0.16.tar.gz",
-            "http://ftp.gnome.org/pub/gnome/sources/pyatspi/2.36/pyatspi-2.36.0.tar.xz",
-            "https://github.com/pygobject/pycairo/releases/download/v1.19.1/pycairo-1.19.1.tar.gz",
-            "https://github.com/pygobject/pycairo/releases/download/v1.18.2/pycairo-1.18.2.tar.gz",
-            "https://files.pythonhosted.org/packages/source/p/pycryptodome/pycryptodome-3.9.7.tar.gz",
-            "https://github.com/martinpitt/python-dbusmock/releases/download/0.19/python-dbusmock-0.19.tar.gz",
-            "https://files.pythonhosted.org/packages/source/P/Pygments/Pygments-2.6.1.tar.gz",
-            "http://ftp.gnome.org/pub/gnome/sources/pygobject/2.28/pygobject-2.28.7.tar.xz",
-            "http://ftp.gnome.org/pub/gnome/sources/pygobject/3.36/pygobject-3.36.0.tar.xz",
-            "http://ftp.gnome.org/pub/gnome/sources/pygtk/2.24/pygtk-2.24.0.tar.bz2",
-            "https://people.freedesktop.org/~takluyver/pyxdg-0.25.tar.gz",
-            "http://xmlsoft.org/sources/libxml2-2.9.10.tar.gz",
-            "https://files.pythonhosted.org/packages/source/l/lxml/lxml-4.5.0.tar.gz",
-            "https://files.pythonhosted.org/packages/source/M/MarkupSafe/MarkupSafe-1.1.1.tar.gz",
-            "https://files.pythonhosted.org/packages/source/J/Jinja2/Jinja2-2.11.1.tar.gz",
-            "https://files.pythonhosted.org/packages/source/M/Mako/Mako-1.1.2.tar.gz",
-            "https://github.com/nphilipp/python-slip/releases/download/python-slip-0.6.5/python-slip-0.6.5.tar.bz2",
-            "http://pyyaml.org/download/pyyaml/PyYAML-5.3.tar.gz",
-            "https://github.com/scour-project/scour/archive/v0.37/scour-0.37.tar.gz",
-            "https://files.pythonhosted.org/packages/source/s/six/six-1.14.0.tar.gz"
+            "https://dbus.freedesktop.org/releases/dbus-python/dbus-python-1.2.16.tar.gz"
         ],
         "commands": [
             "mkdir python2 &&\npushd python2 &&\nPYTHON=/usr/bin/python2     \\\n../configure --prefix=/usr --docdir=/usr/share/doc/dbus-python-1.2.16 &&\nmake &&\npopd",
             "mkdir python3 &&\npushd python3 &&\nPYTHON=/usr/bin/python3    \\\n../configure --prefix=/usr --docdir=/usr/share/doc/dbus-python-1.2.16 &&\nmake &&\npopd",
             "as_root make -C python2 install",
-            "as_root make -C python3 install",
-            "python3 setup.py build",
-            "as_root python3 setup.py install --optimize=1",
-            "python3 setup.py build",
-            "as_root python3 setup.py install --optimize=1 &&\n\nfor f in /usr/bin/rst*.py; do\n  ln -svf $(basename $f) /usr/bin/$(basename $f .py)\ndone",
-            "./configure --prefix=/usr --with-python=/usr/bin/python3",
-            "as_root make install",
-            "python3 setup.py build",
-            "as_root python3 setup.py install --optimize=1   &&\npython3 setup.py install_pycairo_header &&\npython3 setup.py install_pkgconfig",
-            "python2 setup.py build",
-            "as_root python2 setup.py install --optimize=1   &&\npython2 setup.py install_pycairo_header &&\npython2 setup.py install_pkgconfig",
-            "python2 setup.py build &&\npython3 setup.py build",
-            "as_root python2 setup.py install --optimize=1 &&\npython3 setup.py install --optimize=1",
-            "python3 setup.py build",
-            "as_root python3 setup.py install --optimize=1",
-            "as_root python3 setup.py install --optimize=1",
-            "./configure --prefix=/usr --disable-introspection &&\nmake",
-            "as_root make install",
-            "mkdir python2                             &&\npushd python2                             &&\n  meson --prefix=/usr -Dpython=python2 .. &&\n  ninja                                   &&\npopd",
-            "mkdir python3                             &&\npushd python3                             &&\n  meson --prefix=/usr -Dpython=python3 .. &&\n  ninja                                   &&\npopd",
-            "as_root ninja -C python2 install",
-            "as_root ninja -C python3 install",
-            "sed -i '1394,1402 d' pango.defs",
-            "./configure --prefix=/usr &&\nmake",
-            "as_root make install",
-            "as_root python3 setup.py install --optimize=1",
-            "cd python             &&\npython2 setup.py build",
-            "as_root python2 setup.py install --optimize=1",
-            "python2 setup.py build &&\npython3 setup.py build",
-            "as_root python2 setup.py install --optimize=1 &&\npython3 setup.py install --optimize=1",
-            "python2 setup.py build &&\npython3 setup.py build",
-            "as_root python2 setup.py install --optimize=1 &&\npython3 setup.py install --optimize=1",
-            "as_root python2 setup.py install --optimize=1",
-            "as_root python3 setup.py install --optimize=1",
-            "as_root python3 setup.py install --optimize=1",
-            "sed 's/@VERSION@/0.6.5/' setup.py.in > setup.py &&\npython3 setup.py build",
-            "as_root python3 setup.py install --optimize=1",
-            "python2 setup.py build &&\npython3 setup.py build",
-            "as_root python2 setup.py install --optimize=1 &&\npython3 setup.py install --optimize=1",
-            "python2 setup.py build &&\npython3 setup.py build",
-            "as_root python2 setup.py install --optimize=1 &&\npython3 setup.py install --optimize=1",
-            "python2 setup.py build &&\npython3 setup.py build",
-            "as_root python2 setup.py install --optimize=1 &&\npython3 setup.py install --optimize=1"
+            "as_root make -C python3 install"
         ],
         "url": "https://dbus.freedesktop.org/releases/dbus-python/dbus-python-1.2.16.tar.gz",
         "tarball": "dbus-python-1.2.16.tar.gz",
@@ -7427,17 +8862,265 @@
         "dependencies": {
             "required": [
                 "dbus",
-                "glib2",
+                "glib2"
+            ],
+            "recommended": [
+                "python2"
+            ],
+            "optional": [
                 "python-modules#pygobject3",
+                "python-modules#docutils"
+            ]
+        }
+    },
+    {
+        "name": "python-modules#decorator",
+        "description": "The goal of the decorator module is to make it easy to define signature-preserving function decorators and decorator factories.",
+        "section": "Python Module",
+        "downloadUrls": [
+            "https://files.pythonhosted.org/packages/source/d/decorator/decorator-4.4.2.tar.gz"
+        ],
+        "commands": [
+            "python3 setup.py build",
+            "as_root python3 setup.py install --optimize=1"
+        ],
+        "url": "https://files.pythonhosted.org/packages/source/d/decorator/decorator-4.4.2.tar.gz",
+        "tarball": "decorator-4.4.2.tar.gz",
+        "version": "4.4.2",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "python-modules#docutils",
+        "description": "docutils is a set of Python modules and programs for processing plaintext docs into formats such as HTML, XML, or LaTeX.",
+        "section": "Python Module",
+        "downloadUrls": [
+            "http://downloads.sourceforge.net/docutils/docutils-0.16.tar.gz"
+        ],
+        "commands": [
+            "python3 setup.py build",
+            "as_root python3 setup.py install --optimize=1 &&\n\nfor f in /usr/bin/rst*.py; do\n  ln -svf $(basename $f) /usr/bin/$(basename $f .py)\ndone"
+        ],
+        "url": "http://downloads.sourceforge.net/docutils/docutils-0.16.tar.gz",
+        "tarball": "docutils-0.16.tar.gz",
+        "version": "0.16",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": [
+                "python2"
+            ]
+        }
+    },
+    {
+        "name": "python-modules#pyatspi2",
+        "description": "The PyAtSpi2 package contains Python bindings for the core components of the GNOME Accessibility.",
+        "section": "Python Module",
+        "downloadUrls": [
+            "http://ftp.gnome.org/pub/gnome/sources/pyatspi/2.36/pyatspi-2.36.0.tar.xz"
+        ],
+        "commands": [
+            "./configure --prefix=/usr --with-python=/usr/bin/python3",
+            "as_root make install"
+        ],
+        "url": "http://ftp.gnome.org/pub/gnome/sources/pyatspi/2.36/pyatspi-2.36.0.tar.xz",
+        "tarball": "pyatspi-2.36.0.tar.xz",
+        "version": "2.36.0",
+        "dependencies": {
+            "required": [
+                "python-modules#pygobject3"
+            ],
+            "recommended": [
+                "at-spi2-core"
+            ],
+            "optional": [
+                "python2"
+            ]
+        }
+    },
+    {
+        "name": "python-modules#pycairo",
+        "description": "PyCairo provides Python bindings to Cairo.",
+        "section": "Python Module",
+        "downloadUrls": [
+            "https://github.com/pygobject/pycairo/releases/download/v1.19.1/pycairo-1.19.1.tar.gz"
+        ],
+        "commands": [
+            "python3 setup.py build",
+            "as_root python3 setup.py install --optimize=1   &&\npython3 setup.py install_pycairo_header &&\npython3 setup.py install_pkgconfig"
+        ],
+        "url": "https://github.com/pygobject/pycairo/releases/download/v1.19.1/pycairo-1.19.1.tar.gz",
+        "tarball": "pycairo-1.19.1.tar.gz",
+        "version": "1.19.1",
+        "dependencies": {
+            "required": [
+                "cairo"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "python-modules#pycairo2",
+        "description": "This version of PyCairo provides Python2 bindings to Cairo.",
+        "section": "Python Module",
+        "downloadUrls": [
+            "https://github.com/pygobject/pycairo/releases/download/v1.18.2/pycairo-1.18.2.tar.gz"
+        ],
+        "commands": [
+            "python2 setup.py build",
+            "as_root python2 setup.py install --optimize=1   &&\npython2 setup.py install_pycairo_header &&\npython2 setup.py install_pkgconfig"
+        ],
+        "url": "https://github.com/pygobject/pycairo/releases/download/v1.18.2/pycairo-1.18.2.tar.gz",
+        "tarball": "pycairo-1.18.2.tar.gz",
+        "version": "1.18.2",
+        "dependencies": {
+            "required": [
                 "cairo",
-                "cairo",
-                "python2",
-                "python-modules#dbus-python",
+                "python2"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "python-modules#pycryptodome",
+        "description": "PyCryptodome is a collection of both secure hash functions (such as SHA256 and RIPEMD160), and various encryption algorithms (AES, DES, RSA, ElGamal, etc.), and is a drop-in replacement for PyCrypto.",
+        "section": "Python Module",
+        "downloadUrls": [
+            "https://files.pythonhosted.org/packages/source/p/pycryptodome/pycryptodome-3.9.7.tar.gz"
+        ],
+        "commands": [
+            "python2 setup.py build &&\npython3 setup.py build",
+            "as_root python2 setup.py install --optimize=1 &&\npython3 setup.py install --optimize=1"
+        ],
+        "url": "https://files.pythonhosted.org/packages/source/p/pycryptodome/pycryptodome-3.9.7.tar.gz",
+        "tarball": "pycryptodome-3.9.7.tar.gz",
+        "version": "3.9.7",
+        "dependencies": {
+            "required": [],
+            "recommended": [
+                "python2"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "python-modules#python-dbusmock",
+        "description": "dbusmock a Python library useful for writing tests for software which talks to D-Bus services.",
+        "section": "Python Module",
+        "downloadUrls": [
+            "https://github.com/martinpitt/python-dbusmock/releases/download/0.19/python-dbusmock-0.19.tar.gz"
+        ],
+        "commands": [
+            "python3 setup.py build",
+            "as_root python3 setup.py install --optimize=1"
+        ],
+        "url": "https://github.com/martinpitt/python-dbusmock/releases/download/0.19/python-dbusmock-0.19.tar.gz",
+        "tarball": "python-dbusmock-0.19.tar.gz",
+        "version": "0.19",
+        "dependencies": {
+            "required": [
+                "python-modules#dbus-python"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "python-modules#pygments",
+        "description": "Pygments is a general syntax highlighter written in Python, for more than 300 languages.",
+        "section": "Python Module",
+        "downloadUrls": [
+            "https://files.pythonhosted.org/packages/source/P/Pygments/Pygments-2.6.1.tar.gz"
+        ],
+        "commands": [
+            "as_root python3 setup.py install --optimize=1"
+        ],
+        "url": "https://files.pythonhosted.org/packages/source/P/Pygments/Pygments-2.6.1.tar.gz",
+        "tarball": "Pygments-2.6.1.tar.gz",
+        "version": "2.6.1",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "python-modules#pygobject2",
+        "description": "PyGObject-2.28.7 provides Python 2 bindings to the GObject class from GLib.",
+        "section": "Python Module",
+        "downloadUrls": [
+            "http://ftp.gnome.org/pub/gnome/sources/pygobject/2.28/pygobject-2.28.7.tar.xz"
+        ],
+        "commands": [
+            "./configure --prefix=/usr --disable-introspection &&\nmake",
+            "as_root make install"
+        ],
+        "url": "http://ftp.gnome.org/pub/gnome/sources/pygobject/2.28/pygobject-2.28.7.tar.xz",
+        "tarball": "pygobject-2.28.7.tar.xz",
+        "version": "2.28.7",
+        "dependencies": {
+            "required": [
                 "glib2",
                 "python-modules#pycairo2",
-                "python2",
+                "python2"
+            ],
+            "recommended": [],
+            "optional": [
                 "gobject-introspection",
-                "python-modules#pycairo",
+                "libxslt"
+            ]
+        }
+    },
+    {
+        "name": "python-modules#pygobject3",
+        "description": "PyGObject3 provides Python bindings to the GObject class from GLib.",
+        "section": "Python Module",
+        "downloadUrls": [
+            "http://ftp.gnome.org/pub/gnome/sources/pygobject/3.36/pygobject-3.36.0.tar.xz"
+        ],
+        "commands": [
+            "mkdir python2                             &&\npushd python2                             &&\n  meson --prefix=/usr -Dpython=python2 .. &&\n  ninja                                   &&\npopd",
+            "mkdir python3                             &&\npushd python3                             &&\n  meson --prefix=/usr -Dpython=python3 .. &&\n  ninja                                   &&\npopd",
+            "as_root ninja -C python2 install",
+            "as_root ninja -C python3 install"
+        ],
+        "url": "http://ftp.gnome.org/pub/gnome/sources/pygobject/3.36/pygobject-3.36.0.tar.xz",
+        "tarball": "pygobject-3.36.0.tar.xz",
+        "version": "3.36.0",
+        "dependencies": {
+            "required": [
+                "gobject-introspection",
+                "python-modules#pycairo"
+            ],
+            "recommended": [
+                "python2",
+                "python-modules#pycairo2"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "python-modules#pygtk",
+        "description": "PyGTK lets you to easily create programs with a graphical user interface using the Python programming language.",
+        "section": "Python Module",
+        "downloadUrls": [
+            "http://ftp.gnome.org/pub/gnome/sources/pygtk/2.24/pygtk-2.24.0.tar.bz2"
+        ],
+        "commands": [
+            "sed -i '1394,1402 d' pango.defs",
+            "./configure --prefix=/usr &&\nmake",
+            "as_root make install"
+        ],
+        "url": "http://ftp.gnome.org/pub/gnome/sources/pygtk/2.24/pygtk-2.24.0.tar.bz2",
+        "tarball": "pygtk-2.24.0.tar.bz2",
+        "version": "2.24.0",
+        "dependencies": {
+            "required": [
                 "python-modules#pygobject2",
                 "python2",
                 "atk",
@@ -7447,39 +9130,238 @@
                 "python-modules#pycairo2",
                 "gtk2",
                 "python-modules#pycairo2",
-                "libglade",
+                "libglade"
+            ],
+            "recommended": [],
+            "optional": [
+                "libxslt"
+            ]
+        }
+    },
+    {
+        "name": "python-modules#pyxdg",
+        "description": "PyXDG is a Python library to access freedesktop.org standards.",
+        "section": "Python Module",
+        "downloadUrls": [
+            "https://people.freedesktop.org/~takluyver/pyxdg-0.25.tar.gz"
+        ],
+        "commands": [
+            "as_root python3 setup.py install --optimize=1"
+        ],
+        "url": "https://people.freedesktop.org/~takluyver/pyxdg-0.25.tar.gz",
+        "tarball": "pyxdg-0.25.tar.gz",
+        "version": "0.25",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": [
+                "python2"
+            ]
+        }
+    },
+    {
+        "name": "python-modules#libxml2py2",
+        "description": "These instructions provide the Python2 bindings for libxml2: the Python3 bindings are built as part of libxml2-2.9.10 and most packages in the book do not use these bindings for the older Python2.",
+        "section": "Python Module",
+        "downloadUrls": [
+            "http://xmlsoft.org/sources/libxml2-2.9.10.tar.gz"
+        ],
+        "commands": [
+            "cd python             &&\npython2 setup.py build",
+            "as_root python2 setup.py install --optimize=1"
+        ],
+        "url": "http://xmlsoft.org/sources/libxml2-2.9.10.tar.gz",
+        "tarball": "libxml2-2.9.10.tar.gz",
+        "version": "2.9.10",
+        "dependencies": {
+            "required": [
                 "libxml2",
-                "python2",
-                "libxslt",
-                "python-modules#MarkupSafe",
-                "python-modules#MarkupSafe",
-                "python-modules#dbus-python",
-                "python-modules#decorator",
-                "python-modules#six",
-                "libyaml",
-                "python-modules#six"
+                "python2"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "python-modules#lxml",
+        "description": "lxml provides Python bindings for libxslt-1.1.34 and libxml2-2.9.10.",
+        "section": "Python Module",
+        "downloadUrls": [
+            "https://files.pythonhosted.org/packages/source/l/lxml/lxml-4.5.0.tar.gz"
+        ],
+        "commands": [
+            "python2 setup.py build &&\npython3 setup.py build",
+            "as_root python2 setup.py install --optimize=1 &&\npython3 setup.py install --optimize=1"
+        ],
+        "url": "https://files.pythonhosted.org/packages/source/l/lxml/lxml-4.5.0.tar.gz",
+        "tarball": "lxml-4.5.0.tar.gz",
+        "version": "4.5.0",
+        "dependencies": {
+            "required": [
+                "libxslt"
             ],
             "recommended": [
-                "python2",
-                "at-spi2-core",
-                "python2",
-                "python2",
-                "python-modules#pycairo2",
-                "python2",
-                "python2",
                 "python2"
             ],
             "optional": [
-                "python-modules#pygobject3",
-                "python-modules#docutils",
-                "python2",
-                "python2",
-                "gobject-introspection",
-                "libxslt",
-                "libxslt",
-                "python2",
                 "gdb",
-                "valgrind",
+                "valgrind"
+            ]
+        }
+    },
+    {
+        "name": "python-modules#MarkupSafe",
+        "description": "MarkupSafe is a Python module that implements a XML/HTML/XHTML Markup safe string.",
+        "section": "Python Module",
+        "downloadUrls": [
+            "https://files.pythonhosted.org/packages/source/M/MarkupSafe/MarkupSafe-1.1.1.tar.gz"
+        ],
+        "commands": [
+            "python2 setup.py build &&\npython3 setup.py build",
+            "as_root python2 setup.py install --optimize=1 &&\npython3 setup.py install --optimize=1"
+        ],
+        "url": "https://files.pythonhosted.org/packages/source/M/MarkupSafe/MarkupSafe-1.1.1.tar.gz",
+        "tarball": "MarkupSafe-1.1.1.tar.gz",
+        "version": "1.1.1",
+        "dependencies": {
+            "required": [],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "python-modules#Jinja2",
+        "description": "Jinja2 is a Python module that implements a simple pythonic template language.",
+        "section": "Python Module",
+        "downloadUrls": [
+            "https://files.pythonhosted.org/packages/source/J/Jinja2/Jinja2-2.11.1.tar.gz"
+        ],
+        "commands": [
+            "as_root python2 setup.py install --optimize=1",
+            "as_root python3 setup.py install --optimize=1"
+        ],
+        "url": "https://files.pythonhosted.org/packages/source/J/Jinja2/Jinja2-2.11.1.tar.gz",
+        "tarball": "Jinja2-2.11.1.tar.gz",
+        "version": "2.11.1",
+        "dependencies": {
+            "required": [
+                "python-modules#MarkupSafe"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "python-modules#Mako",
+        "description": "Mako is a Python module that implements hyperfast and lightweight templating for the Python platform.",
+        "section": "Python Module",
+        "downloadUrls": [
+            "https://files.pythonhosted.org/packages/source/M/Mako/Mako-1.1.2.tar.gz"
+        ],
+        "commands": [
+            "as_root python3 setup.py install --optimize=1"
+        ],
+        "url": "https://files.pythonhosted.org/packages/source/M/Mako/Mako-1.1.2.tar.gz",
+        "tarball": "Mako-1.1.2.tar.gz",
+        "version": "1.1.2",
+        "dependencies": {
+            "required": [
+                "python-modules#MarkupSafe"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "python-modules#python-slip",
+        "description": "python-slip provides convenience, extension and workaround code for Python and some Python modules.",
+        "section": "Python Module",
+        "downloadUrls": [
+            "https://github.com/nphilipp/python-slip/releases/download/python-slip-0.6.5/python-slip-0.6.5.tar.bz2"
+        ],
+        "commands": [
+            "sed 's/@VERSION@/0.6.5/' setup.py.in > setup.py &&\npython3 setup.py build",
+            "as_root python3 setup.py install --optimize=1"
+        ],
+        "url": "https://github.com/nphilipp/python-slip/releases/download/python-slip-0.6.5/python-slip-0.6.5.tar.bz2",
+        "tarball": "python-slip-0.6.5.tar.bz2",
+        "version": "0.6.5",
+        "dependencies": {
+            "required": [
+                "python-modules#dbus-python",
+                "python-modules#decorator",
+                "python-modules#six"
+            ],
+            "recommended": [],
+            "optional": []
+        }
+    },
+    {
+        "name": "python-modules#scour",
+        "description": "Scour is an SVG (Scalable Vector Graphics) optimizer/cleaner that reduces their size by optimizing structure and removing unnecessary data.",
+        "section": "Python Module",
+        "downloadUrls": [
+            "https://github.com/scour-project/scour/archive/v0.37/scour-0.37.tar.gz"
+        ],
+        "commands": [
+            "python2 setup.py build &&\npython3 setup.py build",
+            "as_root python2 setup.py install --optimize=1 &&\npython3 setup.py install --optimize=1"
+        ],
+        "url": "https://github.com/scour-project/scour/archive/v0.37/scour-0.37.tar.gz",
+        "tarball": "scour-0.37.tar.gz",
+        "version": "0.37",
+        "dependencies": {
+            "required": [
+                "python-modules#six"
+            ],
+            "recommended": [
+                "python2"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "python-modules#six",
+        "description": "Six is a Python 2 and 3 compatibility library.",
+        "section": "Python Module",
+        "downloadUrls": [
+            "https://files.pythonhosted.org/packages/source/s/six/six-1.14.0.tar.gz"
+        ],
+        "commands": [
+            "python2 setup.py build &&\npython3 setup.py build",
+            "as_root python2 setup.py install --optimize=1 &&\npython3 setup.py install --optimize=1"
+        ],
+        "url": "https://files.pythonhosted.org/packages/source/s/six/six-1.14.0.tar.gz",
+        "tarball": "six-1.14.0.tar.gz",
+        "version": "1.14.0",
+        "dependencies": {
+            "required": [],
+            "recommended": [
+                "python2"
+            ],
+            "optional": []
+        }
+    },
+    {
+        "name": "python-modules#PyYAML",
+        "description": "PyYAML is a Python module that implements the next generation YAML parser and emitter.",
+        "section": "Python Module",
+        "downloadUrls": [
+            "http://pyyaml.org/download/pyyaml/PyYAML-5.3.tar.gz"
+        ],
+        "commands": [
+            "python2 setup.py build &&\npython3 setup.py build",
+            "as_root python2 setup.py install --optimize=1 &&\npython3 setup.py install --optimize=1"
+        ],
+        "url": "http://pyyaml.org/download/pyyaml/PyYAML-5.3.tar.gz",
+        "tarball": "PyYAML-5.3.tar.gz",
+        "version": "5.3",
+        "dependencies": {
+            "required": [
+                "libyaml"
+            ],
+            "recommended": [],
+            "optional": [
                 "python2"
             ]
         }
